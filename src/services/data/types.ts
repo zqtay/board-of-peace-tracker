@@ -1,15 +1,18 @@
 export type MemberListData = {
-  members: {
-    confirmed: MemberCountry[];
-    invited: MemberCountry[];
-    declined: MemberCountry[];
+  data: {
+    members: {
+      confirmed: MemberState[];
+      invited: MemberState[];
+      declined: MemberState[];
+    };
   };
   references: Reference[];
   retrieval_date: string;
 };
 
-export type MemberCountry = {
+export type MemberState = {
   name: string;
+  alpha3: string | null;
   references: Reference[];
 };
 

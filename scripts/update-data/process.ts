@@ -1,6 +1,7 @@
 import * as cheerio from 'cheerio';
 import { Element } from 'domhandler';
 import { DATA_SOURCE_URL } from "./constant";
+import countries from 'i18n-iso-countries';
 
 const findFirstElementAfter = ($: cheerio.CheerioAPI, selector: string, targetSelector: string) => {
   const combined = $(`${selector}, ${targetSelector}`);
@@ -12,6 +13,14 @@ const findFirstElementAfter = ($: cheerio.CheerioAPI, selector: string, targetSe
   return $targets.first();
 };
 
+const normalizeCountryName = (name: string) => {
+  const trimmed = name.trim();
+  if (trimmed.includes("Vatican")) {
+    return "Vatican";
+  }
+  return trimmed;
+};
+
 const main = async (html: string) => {
   // Parse HTML
   const $ = cheerio.load(html);
@@ -19,12 +28,15 @@ const main = async (html: string) => {
   const title = $('title').text().trim();
 
   const confirmedList = findFirstElementAfter($, 'p:contains("confirmed their participation")', 'ul');
-  const invitedList = findFirstElementAfter($, 'p:contains("invited to participate")', 'ul');
+  const invitedList = findFirstElementAfter($, 'p:contains("invited to participate\\:")', 'ul');
   const declinedList = findFirstElementAfter($, 'p:contains("declined their invitation")', 'ul');
 
   const parseCountry = (e: Element) => {
     const $e = $(e);
-    const name = $e.find("a").first().text().trim();
+    const nameText = $e.find("a").first().text().trim();
+    const name = normalizeCountryName(nameText);
+    const alpha3 = countries.getAlpha3Code(name, 'en') || null;
+
     const refIds = (Array.from($e.find("sup a"))).map(a => a.attribs.href);
     const refs = refIds.map(id => {
       const citeEl = $(`[id=${id.split('#')[1]}] cite`);
@@ -35,8 +47,10 @@ const main = async (html: string) => {
         link: citeLink,
       };
     });
+
     return {
       name,
+      alpha3,
       references: refs,
     };
   };
