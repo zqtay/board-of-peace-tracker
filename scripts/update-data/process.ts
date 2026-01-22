@@ -16,7 +16,7 @@ const findFirstElementAfter = ($: cheerio.CheerioAPI, selector: string, targetSe
 const normalizeCountryName = (name: string) => {
   const trimmed = name.trim();
   if (trimmed.includes("Vatican")) {
-    return "Vatican";
+    return "Holy See (Vatican City State)";
   }
   return trimmed;
 };
@@ -28,7 +28,7 @@ const main = async (html: string) => {
   const title = $('title').text().trim();
 
   const confirmedList = findFirstElementAfter($, 'p:contains("confirmed their participation")', 'ul');
-  const invitedList = findFirstElementAfter($, 'p:contains("invited to participate\\:")', 'ul');
+  const invitedList = findFirstElementAfter($, 'p:contains("not respond yet")', 'ul');
   const declinedList = findFirstElementAfter($, 'p:contains("declined their invitation")', 'ul');
 
   const parseCountry = (e: Element) => {
@@ -55,13 +55,15 @@ const main = async (html: string) => {
     };
   };
 
+  const members = [
+    ...confirmedList.children('li').map((_, el) => ({...parseCountry(el), status: "confirmed"})).get(),
+    ...invitedList.children('li').map((_, el) => ({...parseCountry(el), status: "invited"})).get(),
+    ...declinedList.children('li').map((_, el) =>({...parseCountry(el), status: "declined"})).get(),
+  ];
+
   const result = {
     data: {
-      members: {
-        confirmed: confirmedList.children('li').map((_, el) => parseCountry(el)).get(),
-        invited: invitedList.children('li').map((_, el) => parseCountry(el)).get(),
-        declined: declinedList.children('li').map((_, el) => parseCountry(el)).get(),
-      }
+      members: members,
     },
     references: [
       {
