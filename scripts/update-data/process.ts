@@ -33,7 +33,7 @@ const main = async (html: string) => {
 
   const parseCountry = (e: Element) => {
     const $e = $(e);
-    const nameText = $e.find("a").first().text().trim();
+    const nameText = $e.text().trim().split('[')[0];
     const name = normalizeCountryName(nameText);
     const alpha3 = countries.getAlpha3Code(name, 'en') || null;
 
