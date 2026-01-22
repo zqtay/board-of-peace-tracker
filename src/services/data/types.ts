@@ -1,3 +1,5 @@
+import type { FeatureCollection, MultiPolygon, Polygon } from "geojson";
+
 export type MemberListData = {
   data: {
     members: MemberState[];
@@ -18,3 +20,9 @@ export type Reference = {
   text: string;
   link: string | null;
 };
+
+export type StateGeoJson = FeatureCollection<Polygon | MultiPolygon, {
+  admin: string;
+  name: string;
+  iso_a3_eh: string;
+}>;

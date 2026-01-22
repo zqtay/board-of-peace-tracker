@@ -4,7 +4,10 @@ import type { Feature, Geometry } from "geojson";
 import type { Layer, StyleFunction } from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { DataService } from "../../services/data";
-import type { MemberListData } from "../../services/data/types";
+import { type StateGeoJson, type MemberListData } from "../../services/data/types";
+import { SmallStatesMarkers } from "./marker";
+import { defaultStateStyle, getMemberStateStyle } from "./style";
+import { getMemberStateTooltip } from "./tooltip";
 
 const outerBounds: [number, number][] = [
   [-90, -180], // Southwest coordinates
@@ -12,7 +15,7 @@ const outerBounds: [number, number][] = [
 ];
 
 const Map = () => {
-  const [geoJsonData, setGeoJsonData] = useState();
+  const [geoJsonData, setGeoJsonData] = useState<StateGeoJson>();
   const [memberData, setMemberData] = useState<MemberListData>();
 
   // 1. Fetch the data when component mounts
@@ -28,47 +31,27 @@ const Map = () => {
   }, []);
 
   // 2. Define the styling
-  const countryStyle: StyleFunction = (feature) => {
+  const style: StyleFunction = (feature) => {
     if (!feature?.properties) {
-      return {
-        fillColor: "white", // Default gray
-        fillOpacity: 0.1,
-        color: "black",
-        weight: 2,
-      };
+      return defaultStateStyle;
     }
-    const isConfirmed = memberData?.data?.members.confirmed.some(
+    const member = memberData?.data?.members.find(
       (m) => m.alpha3 === feature.properties?.iso_a3_eh
     );
-    const isInvited = memberData?.data?.members.invited.some(
-      (m) => m.alpha3 === feature.properties?.iso_a3_eh
-    );
-    const isDeclined = memberData?.data?.members.declined.some(
-      (m) => m.alpha3 === feature.properties?.iso_a3_eh
-    );
-    // Red for confirmed
-    // Blue for declined
-    // Yellow for invited
-    // Gray for not involved
-    const fillColor = isConfirmed ? "#dc3545"
-      : isDeclined ? "#007bff"
-        : isInvited ? "#ffc107"
-          : "#6c757d";
-    return {
-      fillColor,
-      fillOpacity: 0.5, // Keep this low so you can see the map behind
-      color: "black",   // Border color
-      weight: 2,        // Border thickness
-    };
+    if (!member) {
+      return defaultStateStyle;
+    }
+    return getMemberStateStyle(member);
   };
 
   // 3. Handle interactions (Hover, Popup, Click)
   const onEachState = (feature: Feature<Geometry>, layer: Layer) => {
     // A. Bind Tooltip (Hover label)
-    const countryName = feature.properties?.admin;
-    layer.bindTooltip(countryName, {
-      direction: "center",
-      className: "country-label" // Optional CSS class
+    layer.bindTooltip(() => {
+      const member = memberData?.data?.members.find(
+        (m) => m.alpha3 === feature.properties?.iso_a3_eh
+      );
+      return getMemberStateTooltip(member, feature);
     });
 
     // B. Handle Hover Highlighting
@@ -76,17 +59,17 @@ const Map = () => {
       mouseover: (e) => {
         const l = e.target;
         l.setStyle({
-          weight: 4,
+          weight: 2,
           fillOpacity: 1,
         });
-        l.bringToFront(); // Ensures the border draws on top of neighbors
+
       },
       mouseout: (e) => {
         const l = e.target;
         // Reset to original style
         l.setStyle({
-          weight: 2,
-          fillOpacity: 0.5,
+          weight: 1,
+          fillOpacity: 0.7,
         });
       },
       click: (e) => {
@@ -101,23 +84,25 @@ const Map = () => {
       <MapContainer
         center={[20, 0]}
         zoom={3}
-        minZoom={2}
+        minZoom={3}
+        maxZoom={7}
         style={{ height: "100%", width: "100%" }}
         maxBounds={outerBounds}
         maxBoundsViscosity={1.0}
       >
         <TileLayer
-          url="https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png"
+          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
-          noWrap={true}
+
         />
         {geoJsonData && (
           <GeoJSON
             data={geoJsonData}
-            style={countryStyle}
+            style={style}
             onEachFeature={onEachState}
           />
         )}
+        {(geoJsonData && memberData) && <SmallStatesMarkers geoJson={geoJsonData} memberData={memberData} />}
       </MapContainer>
     </div>
   );
