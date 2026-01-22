@@ -1,0 +1,67 @@
+import * as cheerio from 'cheerio';
+import { Element } from 'domhandler';
+import { DATA_SOURCE_URL } from "./constant";
+
+const findFirstElementAfter = ($: cheerio.CheerioAPI, selector: string, targetSelector: string) => {
+  const combined = $(`${selector}, ${targetSelector}`);
+  const startIndex = combined.index($(selector).first());
+
+  // Get all elements in the set after the start element
+  const $targets = combined.slice(startIndex + 1).filter(targetSelector);
+
+  return $targets.first();
+};
+
+const main = async (html: string) => {
+  // Parse HTML
+  const $ = cheerio.load(html);
+
+  const title = $('title').text().trim();
+
+  const confirmedList = findFirstElementAfter($, 'p:contains("confirmed their participation")', 'ul');
+  const invitedList = findFirstElementAfter($, 'p:contains("invited to participate")', 'ul');
+  const declinedList = findFirstElementAfter($, 'p:contains("declined their invitation")', 'ul');
+
+  const parseCountry = (e: Element) => {
+    const $e = $(e);
+    const name = $e.find("a").first().text().trim();
+    const refIds = (Array.from($e.find("sup a"))).map(a => a.attribs.href);
+    const refs = refIds.map(id => {
+      const citeEl = $(`[id=${id.split('#')[1]}] cite`);
+      const citeText = citeEl.text().trim();
+      const citeLink = citeEl.find('a').attr('href') || null;
+      return {
+        text: citeText,
+        link: citeLink,
+      };
+    });
+    return {
+      name,
+      references: refs,
+    };
+  };
+
+  const result = {
+    data: {
+      members: {
+        confirmed: confirmedList.children('li').map((_, el) => parseCountry(el)).get(),
+        invited: invitedList.children('li').map((_, el) => parseCountry(el)).get(),
+        declined: declinedList.children('li').map((_, el) => parseCountry(el)).get(),
+      }
+    },
+    references: [
+      {
+        type: 'source',
+        link: DATA_SOURCE_URL,
+        text: title,
+      }
+    ],
+    retrieval_date: new Date().toISOString(),
+  };
+
+  console.log(JSON.stringify(result));
+
+  return result;
+};
+
+export default main;
