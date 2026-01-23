@@ -28,7 +28,7 @@ const main = async (html: string) => {
   const title = $('title').text().trim();
 
   const confirmedList = findFirstElementAfter($, 'p:contains("confirmed their participation")', 'ul');
-  const invitedList = findFirstElementAfter($, 'p:contains("not respond yet")', 'ul');
+  const invitedList = findFirstElementAfter($, 'p:contains("had not respond")', 'ul');
   const declinedList = findFirstElementAfter($, 'p:contains("declined their invitation")', 'ul');
   const withdrawnList = findFirstElementAfter($, 'p:contains("withdrawn")', 'ul');
 
