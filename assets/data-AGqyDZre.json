@@ -296,39 +296,293 @@
         "status": "confirmed"
       },
       {
-        "name": "Main page",
-        "alpha3": null,
-        "references": [],
+        "name": "Australia",
+        "alpha3": "AUS",
+        "references": [
+          {
+            "text": "Nardelli, Alberto; Wickham, Alex (18 January 2026). \"Albanese invited to join Trump's 'Board of Peace' for Gaza\". Australian Financial Review. Retrieved 20 January 2026.",
+            "link": "https://www.afr.com/world/north-america/broad-mandate-of-trump-s-board-of-peace-sets-it-up-as-rival-to-un-20260118-p5nuui"
+          }
+        ],
         "status": "invited"
       },
       {
-        "name": "Contents",
-        "alpha3": null,
-        "references": [],
+        "name": "Austria",
+        "alpha3": "AUT",
+        "references": [
+          {
+            "text": "Canivete, Carla (19 January 2026). \"The List of World Leaders Invited to Trump's Board of Peace for Gaza\". Bloomberg News. Retrieved 20 January 2026.",
+            "link": "https://www.bloomberg.com/news/articles/2026-01-19/the-list-of-people-invited-to-trump-s-board-of-peace-for-gaza"
+          }
+        ],
         "status": "invited"
       },
       {
-        "name": "Current events",
-        "alpha3": null,
-        "references": [],
+        "name": "Brazil",
+        "alpha3": "BRA",
+        "references": [
+          {
+            "text": "\"Mandato no conselho de paz de Gaza será de 3 anos ou vitalício para quem doar US$ 1 bilhão, diz agência; Lula foi convidado\". G1. 18 January 2025. Retrieved 18 January 2026.",
+            "link": "https://g1.globo.com/mundo/noticia/2026/01/18/conselho-de-paz-de-gaza-preve-mandato-de-3-anos-ou-cargo-vitalicio-para-quem-doar-us-1-bilhao-diz-agencia-lula-foi-convidado.ghtml"
+          },
+          {
+            "text": "\"Convite de Trump para Conselho em Gaza põe Lula em dilema diplomático\". CNN Brasil. 18 January 2025. Retrieved 18 January 2026.",
+            "link": "https://www.cnnbrasil.com.br/blogs/jussara-soares/politica/convite-de-trump-para-conselho-em-gaza-poe-lula-em-dilema-diplomatico/"
+          }
+        ],
         "status": "invited"
       },
       {
-        "name": "Random article",
-        "alpha3": null,
-        "references": [],
+        "name": "Cambodia",
+        "alpha3": "KHM",
+        "references": [
+          {
+            "text": "Chan Thul, Prak (21 January 2026). \"Trump Invites Cambodia to Join Proposed 'Board of Peace'\". Kiripost. Retrieved 21 January 2026.",
+            "link": "https://kiripost.com/stories/trump-invites-cambodia-to-join-proposed-board-of-peace"
+          }
+        ],
         "status": "invited"
       },
       {
-        "name": "About Wikipedia",
-        "alpha3": null,
-        "references": [],
+        "name": "China",
+        "alpha3": "CHN",
+        "references": [
+          {
+            "text": "\"China invited to join Trump's 'Board of Peace'\". Reuters. 20 January 2026. Retrieved 20 January 2026.",
+            "link": "https://www.reuters.com/world/china/china-invited-join-trumps-board-peace-2026-01-20/"
+          }
+        ],
         "status": "invited"
       },
       {
-        "name": "Contact us",
+        "name": "Croatia",
+        "alpha3": "HRV",
+        "references": [
+          {
+            "text": "\"Croatia's Prime Minister Is Invited to Join U.S.-Backed Board of Peace, Government Says\". thedubrovniktimes.com. Retrieved 20 January 2026.",
+            "link": "https://www.thedubrovniktimes.com/news/croatia/item/19312-croatia-s-prime-minister-is-invited-to-join-u-s-backed-board-of-peace-government-says"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Cyprus",
+        "alpha3": "CYP",
+        "references": [
+          {
+            "text": "Canivete, Carla (20 January 2026). \"The List of People Invited to Trump's Board of Peace for Gaza\". Bloomberg News. Retrieved 20 January 2026.",
+            "link": "https://www.bloomberg.com/news/articles/2026-01-19/the-list-of-people-invited-to-trump-s-board-of-peace-for-gaza"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Czech Republic",
+        "alpha3": "CZE",
+        "references": [
+          {
+            "text": "\"Česko dostalo pozvánku do Trumpovy Rady míru - Novinky\". Novinky.cz (in Czech). 22 January 2026.",
+            "link": "https://www.novinky.cz/clanek/domaci-cesko-dostalo-pozvanku-do-trumpovy-rady-miru-40558721"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Finland",
+        "alpha3": "FIN",
+        "references": [
+          {
+            "text": "\"Presidentti Stubb kutsuttu mukaan Trumpin johtamaan Gazan \"rauhanneuvostoon\"\". 19 January 2026. Retrieved 20 January 2026.",
+            "link": "https://www.hs.fi/politiikka/art-2000011758577.html"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Greece",
+        "alpha3": "GRC",
+        "references": [
+          {
+            "text": "\"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. 20 January 2026. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "India",
+        "alpha3": "IND",
+        "references": [
+          {
+            "text": "Bhattacherjee, Kallol (18 January 2026). \"India invited to sit on Trump's Board of Peace for Gaza\". The Hindu. ISSN 0971-751X. Retrieved 18 January 2026.",
+            "link": "https://www.thehindu.com/news/national/india-invited-to-sit-on-trumps-board-of-peace-for-gaza/article70523013.ece"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Japan",
+        "alpha3": "JPN",
+        "references": [
+          {
+            "text": "\"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. 20 January 2026. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Netherlands",
+        "alpha3": "NLD",
+        "references": [
+          {
+            "text": "\"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. 20 January 2026. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "New Zealand",
+        "alpha3": "NZL",
+        "references": [
+          {
+            "text": "\"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. 20 January 2026. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Oman",
+        "alpha3": "OMN",
+        "references": [
+          {
+            "text": "\"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. 20 January 2026. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Poland",
+        "alpha3": "POL",
+        "references": [
+          {
+            "text": "\"Trump invites Polish president to join Gaza Board of Peace, aide says\". Reuters. 20 January 2026. Retrieved 20 January 2026.",
+            "link": "https://www.reuters.com/world/middle-east/trump-invites-polish-president-join-gaza-board-peace-aide-says-2026-01-19/"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Portugal",
+        "alpha3": "PRT",
+        "references": [
+          {
+            "text": "\"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. 20 January 2026. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Romania",
+        "alpha3": "ROU",
+        "references": [
+          {
+            "text": "\"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. 20 January 2026. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Russia",
+        "alpha3": "RUS",
+        "references": [
+          {
+            "text": "\"Vladimir Putin invited to join 'Peace Council' for Gaza, Kremlin says\". Sky News. 19 January 2026. Retrieved 20 January 2026.",
+            "link": "https://news.sky.com/story/putin-invited-join-peace-council-for-gaza-kremlin-says-13494883"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Singapore",
+        "alpha3": "SGP",
+        "references": [
+          {
+            "text": "Bhagyashree Garekar (20 January 2026). \"Singapore invited to join Trump's Board of Peace and is assessing invitation: MFA\". straitstimes.com. The Straits Times. Retrieved 20 January 2026.",
+            "link": "https://www.straitstimes.com/world/united-states/singapore-invited-to-join-trumps-board-of-peace-is-assessing-invitation-mfa"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "South Korea",
+        "alpha3": "KOR",
+        "references": [
+          {
+            "text": "\"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. 20 January 2026. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Switzerland",
+        "alpha3": "CHE",
+        "references": [
+          {
+            "text": "\"The List of World Leaders Invited to Trump's Board of Peace for Gaza\". SWI. 20 January 2026. Retrieved 20 January 2026.",
+            "link": "https://www.swissinfo.ch/eng/the-list-of-world-leaders-invited-to-trumps-board-of-peace-for-gaza/90805871"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Thailand",
+        "alpha3": "THA",
+        "references": [
+          {
+            "text": "\"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. 20 January 2026. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Ukraine",
+        "alpha3": "UKR",
+        "references": [
+          {
+            "text": "\"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. 20 January 2026. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Holy See (Vatican City State)",
+        "alpha3": "VAT",
+        "references": [
+          {
+            "text": "Grittenand, David; Hagan, Rachel (21 January 2026). \"Seven more countries agree to join Trump's Board of Peace\". www.bbc.com. Retrieved 22 January 2026.",
+            "link": "https://www.bbc.com/news/articles/cn8jek4vv8ko"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "European Union",
         "alpha3": null,
-        "references": [],
+        "references": [
+          {
+            "text": "\"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. 20 January 2026. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
         "status": "invited"
       },
       {
@@ -458,5 +712,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-01-23T10:44:02.516Z"
+  "retrieval_date": "2026-01-23T10:49:11.966Z"
 }
