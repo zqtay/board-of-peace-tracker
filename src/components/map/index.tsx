@@ -83,6 +83,7 @@ const Map = () => {
         <div><span className="legend-box confirmed"></span> Confirmed</div>
         <div><span className="legend-box invited"></span> Invited</div>
         <div><span className="legend-box declined"></span> Declined</div>
+        <div><span className="legend-box withdrawn"></span> Withdrawn</div>
         <div><span className="legend-box not-invited"></span> Not Invited</div>
       </div>
       {popup?.visible &&

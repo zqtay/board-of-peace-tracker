@@ -11,7 +11,7 @@ export type MemberListData = {
 export type MemberState = {
   name: string;
   alpha3: string | null;
-  status: 'confirmed' | 'invited' | 'declined';
+  status: 'confirmed' | 'invited' | 'declined' | 'withdrawn';
   references: Reference[];
 };
 

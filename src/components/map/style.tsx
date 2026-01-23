@@ -1,7 +1,7 @@
 import type { MemberState } from "../../services/data/types";
 
 export const defaultStateStyle = {
-  fillColor: "white", // Default gray
+  fillColor: "#6c757d", // Default gray
   fillOpacity: 0.7,
   color: "black",
   weight: 1,
@@ -13,6 +13,7 @@ export const getMemberStateStyle = (member: MemberState) => {
   // Blue for declined
   // Yellow for invited
   // Gray for not involved
+  // Purple for withdrawn
   let fillColor = "#6c757d";
   switch (member?.status) {
     case "confirmed":
@@ -23,6 +24,9 @@ export const getMemberStateStyle = (member: MemberState) => {
       break;
     case "invited":
       fillColor = "#ffc107";
+      break;
+    case "withdrawn":
+      fillColor = "#6f42c1";
       break;
   }
   return {

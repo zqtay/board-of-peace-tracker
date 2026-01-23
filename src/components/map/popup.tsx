@@ -27,6 +27,9 @@ export const getMemberStatePopup = (
     case "declined":
       status = "Declined";
       break;
+    case "withdrawn":
+      status = "Withdrawn";
+      break;
   }
   return <div style={{ position: "relative", paddingRight: "16px" }}>
     <div

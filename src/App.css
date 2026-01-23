@@ -58,3 +58,7 @@
 .legend .legend-box.not-invited {
   background-color: #6c757d;
 }
+
+.legend .legend-box.withdrawn {
+  background-color: #6f42c1;
+}

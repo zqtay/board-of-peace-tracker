@@ -30,6 +30,7 @@ const main = async (html: string) => {
   const confirmedList = findFirstElementAfter($, 'p:contains("confirmed their participation")', 'ul');
   const invitedList = findFirstElementAfter($, 'p:contains("not respond yet")', 'ul');
   const declinedList = findFirstElementAfter($, 'p:contains("declined their invitation")', 'ul');
+  const withdrawnList = findFirstElementAfter($, 'p:contains("withdrawn")', 'ul');
 
   const parseCountry = (e: Element) => {
     const $e = $(e);
@@ -39,9 +40,9 @@ const main = async (html: string) => {
 
     const refIds = (Array.from($e.find("sup a"))).map(a => a.attribs.href);
     const refs = refIds.map(id => {
-      const citeEl = $(`[id=${id.split('#')[1]}] cite`);
-      const citeText = citeEl.text().trim();
-      const citeLink = citeEl.find('a').attr('href') || null;
+      const citeEl = $(`[id=${id.split('#')[1]}]`);
+      const citeText = citeEl.find('.reference-text').text().trim();
+      const citeLink = citeEl.find('a.external').attr('href') || null;
       return {
         text: citeText,
         link: citeLink,
@@ -56,9 +57,10 @@ const main = async (html: string) => {
   };
 
   const members = [
-    ...confirmedList.children('li').map((_, el) => ({...parseCountry(el), status: "confirmed"})).get(),
-    ...invitedList.children('li').map((_, el) => ({...parseCountry(el), status: "invited"})).get(),
-    ...declinedList.children('li').map((_, el) =>({...parseCountry(el), status: "declined"})).get(),
+    ...confirmedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "confirmed" })).get(),
+    ...invitedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "invited" })).get(),
+    ...declinedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "declined" })).get(),
+    ...withdrawnList.children('li').map((_, el) => ({ ...parseCountry(el), status: "withdrawn" })).get(),
   ];
 
   const result = {
