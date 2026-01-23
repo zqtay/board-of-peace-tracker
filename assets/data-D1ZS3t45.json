@@ -3,6 +3,7 @@
     "members": [
       {
         "name": "Albania",
+        "alpha2": "AL",
         "alpha3": "ALB",
         "references": [
           {
@@ -14,6 +15,7 @@
       },
       {
         "name": "Argentina",
+        "alpha2": "AR",
         "alpha3": "ARG",
         "references": [
           {
@@ -25,6 +27,7 @@
       },
       {
         "name": "Armenia",
+        "alpha2": "AM",
         "alpha3": "ARM",
         "references": [
           {
@@ -40,6 +43,7 @@
       },
       {
         "name": "Azerbaijan",
+        "alpha2": "AZ",
         "alpha3": "AZE",
         "references": [
           {
@@ -55,6 +59,7 @@
       },
       {
         "name": "Bahrain",
+        "alpha2": "BH",
         "alpha3": "BHR",
         "references": [
           {
@@ -66,6 +71,7 @@
       },
       {
         "name": "Belarus",
+        "alpha2": "BY",
         "alpha3": "BLR",
         "references": [
           {
@@ -77,6 +83,7 @@
       },
       {
         "name": "Bulgaria",
+        "alpha2": "BG",
         "alpha3": "BGR",
         "references": [
           {
@@ -88,6 +95,7 @@
       },
       {
         "name": "Egypt",
+        "alpha2": "EG",
         "alpha3": "EGY",
         "references": [
           {
@@ -99,6 +107,7 @@
       },
       {
         "name": "Hungary",
+        "alpha2": "HU",
         "alpha3": "HUN",
         "references": [
           {
@@ -110,6 +119,7 @@
       },
       {
         "name": "Indonesia",
+        "alpha2": "ID",
         "alpha3": "IDN",
         "references": [
           {
@@ -121,6 +131,7 @@
       },
       {
         "name": "Israel",
+        "alpha2": "IL",
         "alpha3": "ISR",
         "references": [
           {
@@ -132,6 +143,7 @@
       },
       {
         "name": "Jordan",
+        "alpha2": "JO",
         "alpha3": "JOR",
         "references": [
           {
@@ -143,6 +155,7 @@
       },
       {
         "name": "Kazakhstan",
+        "alpha2": "KZ",
         "alpha3": "KAZ",
         "references": [
           {
@@ -154,6 +167,7 @@
       },
       {
         "name": "Kosovo",
+        "alpha2": "XK",
         "alpha3": "XKK",
         "references": [
           {
@@ -165,6 +179,7 @@
       },
       {
         "name": "Kuwait",
+        "alpha2": "KW",
         "alpha3": "KWT",
         "references": [
           {
@@ -176,6 +191,7 @@
       },
       {
         "name": "Mongolia",
+        "alpha2": "MN",
         "alpha3": "MNG",
         "references": [
           {
@@ -187,6 +203,7 @@
       },
       {
         "name": "Morocco",
+        "alpha2": "MA",
         "alpha3": "MAR",
         "references": [
           {
@@ -198,6 +215,7 @@
       },
       {
         "name": "Pakistan",
+        "alpha2": "PK",
         "alpha3": "PAK",
         "references": [
           {
@@ -209,6 +227,7 @@
       },
       {
         "name": "Paraguay",
+        "alpha2": "PY",
         "alpha3": "PRY",
         "references": [
           {
@@ -220,6 +239,7 @@
       },
       {
         "name": "Qatar",
+        "alpha2": "QA",
         "alpha3": "QAT",
         "references": [
           {
@@ -231,6 +251,7 @@
       },
       {
         "name": "Saudi Arabia",
+        "alpha2": "SA",
         "alpha3": "SAU",
         "references": [
           {
@@ -242,6 +263,7 @@
       },
       {
         "name": "Turkey",
+        "alpha2": "TR",
         "alpha3": "TUR",
         "references": [
           {
@@ -253,6 +275,7 @@
       },
       {
         "name": "United Arab Emirates",
+        "alpha2": "AE",
         "alpha3": "ARE",
         "references": [
           {
@@ -264,6 +287,7 @@
       },
       {
         "name": "United States",
+        "alpha2": "US",
         "alpha3": "USA",
         "references": [
           {
@@ -275,6 +299,7 @@
       },
       {
         "name": "Uzbekistan",
+        "alpha2": "UZ",
         "alpha3": "UZB",
         "references": [
           {
@@ -286,6 +311,7 @@
       },
       {
         "name": "Vietnam",
+        "alpha2": "VN",
         "alpha3": "VNM",
         "references": [
           {
@@ -297,6 +323,7 @@
       },
       {
         "name": "Australia",
+        "alpha2": "AU",
         "alpha3": "AUS",
         "references": [
           {
@@ -308,6 +335,7 @@
       },
       {
         "name": "Austria",
+        "alpha2": "AT",
         "alpha3": "AUT",
         "references": [
           {
@@ -319,6 +347,7 @@
       },
       {
         "name": "Brazil",
+        "alpha2": "BR",
         "alpha3": "BRA",
         "references": [
           {
@@ -334,6 +363,7 @@
       },
       {
         "name": "Cambodia",
+        "alpha2": "KH",
         "alpha3": "KHM",
         "references": [
           {
@@ -345,6 +375,7 @@
       },
       {
         "name": "China",
+        "alpha2": "CN",
         "alpha3": "CHN",
         "references": [
           {
@@ -356,6 +387,7 @@
       },
       {
         "name": "Croatia",
+        "alpha2": "HR",
         "alpha3": "HRV",
         "references": [
           {
@@ -367,6 +399,7 @@
       },
       {
         "name": "Cyprus",
+        "alpha2": "CY",
         "alpha3": "CYP",
         "references": [
           {
@@ -378,6 +411,7 @@
       },
       {
         "name": "Czech Republic",
+        "alpha2": "CZ",
         "alpha3": "CZE",
         "references": [
           {
@@ -389,6 +423,7 @@
       },
       {
         "name": "Finland",
+        "alpha2": "FI",
         "alpha3": "FIN",
         "references": [
           {
@@ -400,6 +435,7 @@
       },
       {
         "name": "Greece",
+        "alpha2": "GR",
         "alpha3": "GRC",
         "references": [
           {
@@ -411,6 +447,7 @@
       },
       {
         "name": "India",
+        "alpha2": "IN",
         "alpha3": "IND",
         "references": [
           {
@@ -422,6 +459,7 @@
       },
       {
         "name": "Japan",
+        "alpha2": "JP",
         "alpha3": "JPN",
         "references": [
           {
@@ -433,6 +471,7 @@
       },
       {
         "name": "Netherlands",
+        "alpha2": "NL",
         "alpha3": "NLD",
         "references": [
           {
@@ -444,6 +483,7 @@
       },
       {
         "name": "New Zealand",
+        "alpha2": "NZ",
         "alpha3": "NZL",
         "references": [
           {
@@ -455,6 +495,7 @@
       },
       {
         "name": "Oman",
+        "alpha2": "OM",
         "alpha3": "OMN",
         "references": [
           {
@@ -466,6 +507,7 @@
       },
       {
         "name": "Poland",
+        "alpha2": "PL",
         "alpha3": "POL",
         "references": [
           {
@@ -477,6 +519,7 @@
       },
       {
         "name": "Portugal",
+        "alpha2": "PT",
         "alpha3": "PRT",
         "references": [
           {
@@ -488,6 +531,7 @@
       },
       {
         "name": "Romania",
+        "alpha2": "RO",
         "alpha3": "ROU",
         "references": [
           {
@@ -499,6 +543,7 @@
       },
       {
         "name": "Russia",
+        "alpha2": "RU",
         "alpha3": "RUS",
         "references": [
           {
@@ -510,6 +555,7 @@
       },
       {
         "name": "Singapore",
+        "alpha2": "SG",
         "alpha3": "SGP",
         "references": [
           {
@@ -521,6 +567,7 @@
       },
       {
         "name": "South Korea",
+        "alpha2": "KR",
         "alpha3": "KOR",
         "references": [
           {
@@ -532,6 +579,7 @@
       },
       {
         "name": "Switzerland",
+        "alpha2": "CH",
         "alpha3": "CHE",
         "references": [
           {
@@ -543,6 +591,7 @@
       },
       {
         "name": "Thailand",
+        "alpha2": "TH",
         "alpha3": "THA",
         "references": [
           {
@@ -554,6 +603,7 @@
       },
       {
         "name": "Ukraine",
+        "alpha2": "UA",
         "alpha3": "UKR",
         "references": [
           {
@@ -565,6 +615,7 @@
       },
       {
         "name": "Holy See (Vatican City State)",
+        "alpha2": "VA",
         "alpha3": "VAT",
         "references": [
           {
@@ -576,6 +627,7 @@
       },
       {
         "name": "European Union",
+        "alpha2": null,
         "alpha3": null,
         "references": [
           {
@@ -587,6 +639,7 @@
       },
       {
         "name": "France",
+        "alpha2": "FR",
         "alpha3": "FRA",
         "references": [
           {
@@ -598,6 +651,7 @@
       },
       {
         "name": "Germany",
+        "alpha2": "DE",
         "alpha3": "DEU",
         "references": [
           {
@@ -609,6 +663,7 @@
       },
       {
         "name": "Ireland",
+        "alpha2": "IE",
         "alpha3": "IRL",
         "references": [
           {
@@ -620,6 +675,7 @@
       },
       {
         "name": "Italy",
+        "alpha2": "IT",
         "alpha3": "ITA",
         "references": [
           {
@@ -631,6 +687,7 @@
       },
       {
         "name": "Norway",
+        "alpha2": "NO",
         "alpha3": "NOR",
         "references": [
           {
@@ -642,6 +699,7 @@
       },
       {
         "name": "Slovenia",
+        "alpha2": "SI",
         "alpha3": "SVN",
         "references": [
           {
@@ -653,6 +711,7 @@
       },
       {
         "name": "Spain",
+        "alpha2": "ES",
         "alpha3": "ESP",
         "references": [
           {
@@ -668,6 +727,7 @@
       },
       {
         "name": "Sweden",
+        "alpha2": "SE",
         "alpha3": "SWE",
         "references": [
           {
@@ -679,6 +739,7 @@
       },
       {
         "name": "United Kingdom",
+        "alpha2": "GB",
         "alpha3": "GBR",
         "references": [
           {
@@ -694,6 +755,7 @@
       },
       {
         "name": "Canada",
+        "alpha2": "CA",
         "alpha3": "CAN",
         "references": [
           {
@@ -712,5 +774,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-01-23T10:49:11.966Z"
+  "retrieval_date": "2026-01-23T12:35:32.740Z"
 }
