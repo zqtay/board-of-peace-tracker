@@ -33,6 +33,7 @@
   bottom: 80px;
   left: 10px;
   font-size: 12px;
+  cursor: pointer;
 }
 
 .legend .legend-box {
@@ -61,4 +62,21 @@
 
 .legend .legend-box.withdrawn {
   background-color: #6f42c1;
+}
+
+.legend-popup {
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 12px;
+  overflow-y: auto;
+  min-width: 60%;
+  padding: 12px;
+  max-height: 70%;
+}
+
+.legend-popup ul {
+  column-width: 15em;
 }

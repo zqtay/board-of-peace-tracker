@@ -6,6 +6,7 @@ import { type StateGeoJson, type MemberListData } from "../../services/data/type
 import { SmallStateMarkers } from "./marker";
 import { type PopupState } from "./popup";
 import { StatePolygons } from "./state";
+import { Legend } from "./legend";
 
 const outerBounds: [number, number][] = [
   [-90, -180], // Southwest coordinates
@@ -65,27 +66,7 @@ const Map = () => {
           />
         }
       </MapContainer>
-      <div className="card reference">
-        {memberData?.references && memberData.references.length > 0 && (
-          <div>
-            {memberData.references.map((ref, i) => (
-              <div key={`ref-${i}`}>
-                <a href={ref.link!} target="_blank" rel="noopener noreferrer">
-                  {ref.text}
-                </a>
-              </div>
-            ))}
-            Retrieved at {new Date(memberData.retrieval_date).toLocaleString()}
-          </div>
-        )}
-      </div>
-      <div className="card legend">
-        <div><span className="legend-box confirmed"></span> Confirmed</div>
-        <div><span className="legend-box invited"></span> Invited</div>
-        <div><span className="legend-box declined"></span> Declined</div>
-        <div><span className="legend-box withdrawn"></span> Withdrawn</div>
-        <div><span className="legend-box not-invited"></span> Not Invited</div>
-      </div>
+      <Legend memberData={memberData} />
       {popup?.visible &&
         <div className="card popup">
           {popup.content}
