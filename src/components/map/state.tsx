@@ -6,7 +6,6 @@ import { GeoJSON } from "react-leaflet";
 import { getEventHandlers } from "./event";
 
 type StatePolygonsProps = {
-  // No props needed for now
   geoJson: StateGeoJson;
   memberData: MemberListData;
   popup: PopupState;
@@ -41,7 +40,7 @@ export const StatePolygons: FC<StatePolygonsProps> = ({
       <GeoJSON
         key={`marker-${index}`}
         data={feature}
-        pathOptions={style}
+        style={style}
         eventHandlers={eventHandlers}
       >
       </GeoJSON>

@@ -7,7 +7,6 @@ import { type PopupState } from "./popup";
 import { getEventHandlers } from "./event";
 
 type SmallStateMarkersProps = {
-  // No props needed for now
   geoJson: StateGeoJson;
   memberData: MemberListData;
   popup: PopupState;
@@ -48,8 +47,9 @@ export const SmallStateMarkers: FC<SmallStateMarkersProps> = ({
       <CircleMarker
         key={`marker-${index}`}
         center={center}
-        radius={6} // Fixed pixel size (always visible)
+        radius={6}
         pathOptions={style}
+        className="transition"
         eventHandlers={eventHandlers}
       >
       </CircleMarker>
