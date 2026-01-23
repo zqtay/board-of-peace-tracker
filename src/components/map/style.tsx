@@ -33,3 +33,13 @@ export const getMemberStateStyle = (member: MemberState) => {
     className: "transition",
   };
 };
+
+export const highlightStyle = {
+  weight: 2,
+  fillOpacity: 1,
+};
+
+export const resetStyle = {
+  weight: 1,
+  fillOpacity: 0.7,
+};

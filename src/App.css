@@ -1,3 +1,60 @@
 .transition {
-  transition: fill-opacity 0.3s ease, fill-color 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.card {
+  background: #ffffff;
+  color: black;
+  padding: 8px;
+  border-radius: 4px;
+  border: 2px solid rgba(0, 0, 0, .2);
+}
+
+.reference {
+  position: absolute;
+  z-index: 1000;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}
+
+.popup {
+  position: fixed;
+  z-index: 1000;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+}
+
+.legend {
+  position: fixed;
+  z-index: 1000;
+  bottom: 80px;
+  left: 10px;
+  font-size: 12px;
+}
+
+.legend .legend-box {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.legend .legend-box.confirmed {
+  background-color: #dc3545;
+}
+
+.legend .legend-box.invited {
+  background-color: #FFC107;
+}
+
+.legend .legend-box.declined {
+  background-color: #007bff;
+}
+
+.legend .legend-box.not-invited {
+  background-color: #6c757d;
 }

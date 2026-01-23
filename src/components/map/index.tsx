@@ -1,13 +1,11 @@
 import { useState, useEffect } from "react";
-import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
-import type { Feature, Geometry } from "geojson";
-import type { Layer, StyleFunction } from "leaflet";
+import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { DataService } from "../../services/data";
 import { type StateGeoJson, type MemberListData } from "../../services/data/types";
-import { SmallStatesMarkers } from "./marker";
-import { defaultStateStyle, getMemberStateStyle } from "./style";
-import { getMemberStateTooltip } from "./tooltip";
+import { SmallStateMarkers } from "./marker";
+import { type PopupState } from "./popup";
+import { StatePolygons } from "./state";
 
 const outerBounds: [number, number][] = [
   [-90, -180], // Southwest coordinates
@@ -17,6 +15,11 @@ const outerBounds: [number, number][] = [
 const Map = () => {
   const [geoJsonData, setGeoJsonData] = useState<StateGeoJson>();
   const [memberData, setMemberData] = useState<MemberListData>();
+  const [popup, setPopup] = useState<PopupState>({
+    visible: false,
+    content: null,
+    locked: false,
+  });
 
   // 1. Fetch the data when component mounts
   useEffect(() => {
@@ -29,55 +32,6 @@ const Map = () => {
         setMemberData(data);
       });
   }, []);
-
-  // 2. Define the styling
-  const style: StyleFunction = (feature) => {
-    if (!feature?.properties) {
-      return defaultStateStyle;
-    }
-    const member = memberData?.data?.members.find(
-      (m) => m.alpha3 === feature.properties?.iso_a3_eh
-    );
-    if (!member) {
-      return defaultStateStyle;
-    }
-    return getMemberStateStyle(member);
-  };
-
-  // 3. Handle interactions (Hover, Popup, Click)
-  const onEachState = (feature: Feature<Geometry>, layer: Layer) => {
-    // A. Bind Tooltip (Hover label)
-    layer.bindTooltip(() => {
-      const member = memberData?.data?.members.find(
-        (m) => m.alpha3 === feature.properties?.iso_a3_eh
-      );
-      return getMemberStateTooltip(member, feature);
-    });
-
-    // B. Handle Hover Highlighting
-    layer.on({
-      mouseover: (e) => {
-        const l = e.target;
-        l.setStyle({
-          weight: 2,
-          fillOpacity: 1,
-        });
-
-      },
-      mouseout: (e) => {
-        const l = e.target;
-        // Reset to original style
-        l.setStyle({
-          weight: 1,
-          fillOpacity: 0.7,
-        });
-      },
-      click: (e) => {
-        // Optional: Zoom to state on click
-        e.target._map.fitBounds(e.target.getBounds());
-      }
-    });
-  };
 
   return (
     <div style={{ height: "100vh", width: "100vw" }}>
@@ -93,17 +47,49 @@ const Map = () => {
         <TileLayer
           url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
-
         />
-        {(geoJsonData && memberData) && (
-          <GeoJSON
-            data={geoJsonData}
-            style={style}
-            onEachFeature={onEachState}
+        {(geoJsonData && memberData) &&
+          <StatePolygons
+            geoJson={geoJsonData}
+            memberData={memberData}
+            popup={popup}
+            setPopup={setPopup}
           />
-        )}
-        {(geoJsonData && memberData) && <SmallStatesMarkers geoJson={geoJsonData} memberData={memberData} />}
+        }
+        {(geoJsonData && memberData) &&
+          <SmallStateMarkers
+            geoJson={geoJsonData}
+            memberData={memberData}
+            popup={popup}
+            setPopup={setPopup}
+          />
+        }
       </MapContainer>
+      <div className="card reference">
+        {memberData?.references && memberData.references.length > 0 && (
+          <div>
+            {memberData.references.map((ref, i) => (
+              <div key={`ref-${i}`}>
+                <a href={ref.link!} target="_blank" rel="noopener noreferrer">
+                  {ref.text}
+                </a>
+              </div>
+            ))}
+            Retrieved at {new Date(memberData.retrieval_date).toLocaleString()}
+          </div>
+        )}
+      </div>
+      <div className="card legend">
+        <div><span className="legend-box confirmed"></span> Confirmed</div>
+        <div><span className="legend-box invited"></span> Invited</div>
+        <div><span className="legend-box declined"></span> Declined</div>
+        <div><span className="legend-box not-invited"></span> Not Invited</div>
+      </div>
+      {popup?.visible &&
+        <div className="card popup">
+          {popup.content}
+        </div>
+      }
     </div>
   );
 };

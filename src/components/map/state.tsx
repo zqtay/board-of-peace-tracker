@@ -1,13 +1,12 @@
-import { CircleMarker } from "react-leaflet";
-import { getCenter, SMALL_COUNTRIES_CODES } from "../../lib/map";
 import { useMemo, type Dispatch, type FC, type SetStateAction } from "react";
 import type { MemberListData, StateGeoJson } from "../../services/data/types";
 import { defaultStateStyle, getMemberStateStyle, highlightStyle, resetStyle } from "./style";
 import { getMemberStatePopup, type PopupState } from "./popup";
+import { GeoJSON } from "react-leaflet";
 import type { LeafletEventHandlerFnMap } from "leaflet";
 import { getEventHandlers } from "./event";
 
-type SmallStateMarkersProps = {
+type StatePolygonsProps = {
   // No props needed for now
   geoJson: StateGeoJson;
   memberData: MemberListData;
@@ -15,17 +14,11 @@ type SmallStateMarkersProps = {
   setPopup: Dispatch<SetStateAction<PopupState>>;
 };
 
-export const SmallStateMarkers: FC<SmallStateMarkersProps> = ({
+export const StatePolygons: FC<StatePolygonsProps> = ({
   geoJson, memberData, popup, setPopup
 }) => {
   return geoJson.features.map((feature, index) => {
-
-    // Check if this feature is in our "Small Country" list
-    const countryCode = feature.properties?.iso_a3_eh; // Adjust property name to match your JSON
-    if (!SMALL_COUNTRIES_CODES.includes(countryCode)) return null;
-
-    const center = getCenter(feature.geometry);
-
+    const countryCode = feature.properties?.iso_a3_eh;
     const member = memberData?.data?.members.find(
       (m) => m.alpha3 === countryCode
     );
@@ -46,14 +39,13 @@ export const SmallStateMarkers: FC<SmallStateMarkersProps> = ({
     );
 
     return (
-      <CircleMarker
+      <GeoJSON
         key={`marker-${index}`}
-        center={center}
-        radius={6} // Fixed pixel size (always visible)
+        data={feature}
         pathOptions={style}
         eventHandlers={eventHandlers}
       >
-      </CircleMarker>
+      </GeoJSON>
     );
   });
 };
