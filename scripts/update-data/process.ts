@@ -27,7 +27,7 @@ const main = async (html: string) => {
 
   const title = $('title').text().trim();
 
-  const confirmedList = findFirstElementAfter($, 'p:contains("confirmed their participation")', 'ul');
+  const confirmedList = findFirstElementAfter($, 'p:contains("have confirmed ")', 'ul');
   const invitedList = findFirstElementAfter($, 'p:contains("had not respond")', 'ul');
   const declinedList = findFirstElementAfter($, 'p:contains("declined their invitation")', 'ul');
   const withdrawnList = findFirstElementAfter($, 'p:contains("withdrawn")', 'ul');
@@ -36,6 +36,7 @@ const main = async (html: string) => {
     const $e = $(e);
     const nameText = $e.text().trim().split('[')[0];
     const name = normalizeCountryName(nameText);
+    const alpha2 = countries.getAlpha2Code(name, 'en') || null;
     const alpha3 = countries.getAlpha3Code(name, 'en') || null;
 
     const refIds = (Array.from($e.find("sup a"))).map(a => a.attribs.href);
@@ -51,6 +52,7 @@ const main = async (html: string) => {
 
     return {
       name,
+      alpha2,
       alpha3,
       references: refs,
     };
