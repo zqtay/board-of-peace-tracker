@@ -34,7 +34,7 @@ export const getEventHandlers = (
         locked: false,
       });
     },
-    click: (e) => {
+    click: () => {
       setPopup(prev => ({
         ...prev,
         locked: true,

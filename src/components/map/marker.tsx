@@ -2,9 +2,8 @@ import { CircleMarker } from "react-leaflet";
 import { getCenter, SMALL_COUNTRIES_CODES } from "../../lib/map";
 import { useMemo, type Dispatch, type FC, type SetStateAction } from "react";
 import type { MemberListData, StateGeoJson } from "../../services/data/types";
-import { defaultStateStyle, getMemberStateStyle, highlightStyle, resetStyle } from "./style";
-import { getMemberStatePopup, type PopupState } from "./popup";
-import type { LeafletEventHandlerFnMap } from "leaflet";
+import { defaultStateStyle, getMemberStateStyle, highlightStyle } from "./style";
+import { type PopupState } from "./popup";
 import { getEventHandlers } from "./event";
 
 type SmallStateMarkersProps = {

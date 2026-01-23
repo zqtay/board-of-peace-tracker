@@ -1,9 +1,8 @@
 import { useMemo, type Dispatch, type FC, type SetStateAction } from "react";
 import type { MemberListData, StateGeoJson } from "../../services/data/types";
-import { defaultStateStyle, getMemberStateStyle, highlightStyle, resetStyle } from "./style";
-import { getMemberStatePopup, type PopupState } from "./popup";
+import { defaultStateStyle, getMemberStateStyle, highlightStyle } from "./style";
+import { type PopupState } from "./popup";
 import { GeoJSON } from "react-leaflet";
-import type { LeafletEventHandlerFnMap } from "leaflet";
 import { getEventHandlers } from "./event";
 
 type StatePolygonsProps = {
