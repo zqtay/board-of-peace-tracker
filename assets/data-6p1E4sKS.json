@@ -344,17 +344,6 @@
         "status": "invited"
       },
       {
-        "name": "Canada",
-        "alpha3": "CAN",
-        "references": [
-          {
-            "text": "",
-            "link": null
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "China",
         "alpha3": "CHN",
         "references": [
@@ -388,7 +377,7 @@
         "status": "invited"
       },
       {
-        "name": "Czechia",
+        "name": "Czech Republic",
         "alpha3": "CZE",
         "references": [
           {
@@ -427,17 +416,6 @@
           {
             "text": "Bhattacherjee, Kallol (18 January 2026). \"India invited to sit on Trump's Board of Peace for Gaza\". The Hindu. ISSN 0971-751X. Retrieved 18 January 2026.",
             "link": "https://www.thehindu.com/news/national/india-invited-to-sit-on-trumps-board-of-peace-for-gaza/article70523013.ece"
-          }
-        ],
-        "status": "invited"
-      },
-      {
-        "name": "Ireland",
-        "alpha3": "IRL",
-        "references": [
-          {
-            "text": "\"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. 20 January 2026. Retrieved 21 January 2026.",
-            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
           }
         ],
         "status": "invited"
@@ -553,17 +531,6 @@
         "status": "invited"
       },
       {
-        "name": "Spain",
-        "alpha3": "ESP",
-        "references": [
-          {
-            "text": "\"España estudia la invitación de Trump para formar parte de la Junta de Paz de Gaza\". El País (in Spanish). 20 January 2026. Retrieved 21 January 2026.",
-            "link": "https://elpais.com/espana/2026-01-21/espana-estudia-la-invitacion-de-trump-para-formar-parte-de-la-junta-de-paz-de-gaza.html"
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "Switzerland",
         "alpha3": "CHE",
         "references": [
@@ -601,7 +568,7 @@
         "alpha3": "VAT",
         "references": [
           {
-            "text": "\"Seven more countries agree to join Trump's Board of Peace\". www.bbc.com. 21 January 2026.",
+            "text": "Grittenand, David; Hagan, Rachel (21 January 2026). \"Seven more countries agree to join Trump's Board of Peace\". www.bbc.com. Retrieved 22 January 2026.",
             "link": "https://www.bbc.com/news/articles/cn8jek4vv8ko"
           }
         ],
@@ -641,6 +608,17 @@
         "status": "declined"
       },
       {
+        "name": "Ireland",
+        "alpha3": "IRL",
+        "references": [
+          {
+            "text": "\"Harris: No scenario in which Ireland joins Board of Peace\". RTÉ. 22 January 2026.",
+            "link": "https://www.rte.ie/news/world/2026/0122/1554422-board-of-peace/"
+          }
+        ],
+        "status": "declined"
+      },
+      {
         "name": "Italy",
         "alpha3": "ITA",
         "references": [
@@ -667,8 +645,19 @@
         "alpha3": "SVN",
         "references": [
           {
-            "text": "\"Seven more countries agree to join Trump's Board of Peace\". www.bbc.com. 21 January 2026.",
+            "text": "Grittenand, David; Hagan, Rachel (21 January 2026). \"Seven more countries agree to join Trump's Board of Peace\". www.bbc.com. Retrieved 22 January 2026.",
             "link": "https://www.bbc.com/news/articles/cn8jek4vv8ko"
+          }
+        ],
+        "status": "declined"
+      },
+      {
+        "name": "Spain",
+        "alpha3": "ESP",
+        "references": [
+          {
+            "text": "\"España estudia la invitación de Trump para formar parte de la Junta de Paz de Gaza\". El País (in Spanish). 20 January 2026. Retrieved 21 January 2026.",
+            "link": "https://elpais.com/espana/2026-01-21/espana-estudia-la-invitacion-de-trump-para-formar-parte-de-la-junta-de-paz-de-gaza.html"
           }
         ],
         "status": "declined"
@@ -708,5 +697,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-01-22T19:01:54.034Z"
+  "retrieval_date": "2026-01-23T06:12:55.108Z"
 }
