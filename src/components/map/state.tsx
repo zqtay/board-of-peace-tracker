@@ -1,6 +1,6 @@
 import { useMemo, type Dispatch, type FC, type SetStateAction } from "react";
 import type { MemberListData, StateGeoJson } from "../../services/data/types";
-import { defaultStateStyle, getMemberStateStyle, highlightStyle } from "./style";
+import { defaultStateStyle, getMemberStateStyle } from "./style";
 import { type PopupState } from "./popup";
 import { GeoJSON } from "react-leaflet";
 import { getEventHandlers } from "./event";
@@ -23,9 +23,6 @@ export const StatePolygons: FC<StatePolygonsProps> = ({
 
     const style = useMemo(() => {
       const baseStyle = member ? getMemberStateStyle(member!) : defaultStateStyle;
-      if (popup.visible && popup.content && popup.locked && popup.code === countryCode) {
-        return { ...baseStyle, ...highlightStyle };
-      }
       return baseStyle;
     }, [member]);
 

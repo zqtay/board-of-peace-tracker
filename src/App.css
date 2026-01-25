@@ -27,6 +27,16 @@
   font-size: 12px;
 }
 
+@media (max-width: 600px) {
+  .popup {
+    bottom: unset;
+    transform: unset;
+    left: unset;
+    top: 0;
+    margin: 10px 10px 0 10px;
+  }
+}
+
 .legend {
   position: fixed;
   z-index: 1000;

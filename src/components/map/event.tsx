@@ -13,9 +13,9 @@ export const getEventHandlers = (
   const countryCode = feature.properties?.iso_a3_eh;
   const eventHandlers: LeafletEventHandlerFnMap = {
     mouseover: (e) => {
-      if (popup.locked) return;
       const l = e.target;
       l.setStyle(highlightStyle);
+      if (popup.locked) return;
       setPopup({
         code: countryCode,
         content: getMemberStatePopup(member, feature, setPopup),
@@ -24,9 +24,10 @@ export const getEventHandlers = (
       });
     },
     mouseout: (e) => {
-      if (popup.locked) return;
+      if (popup.locked && popup.code === countryCode) return;
       const l = e.target;
       l.setStyle(resetStyle);
+      if (popup.locked) return;
       setPopup({
         code: null,
         content: null,
@@ -35,8 +36,10 @@ export const getEventHandlers = (
       });
     },
     click: () => {
-      setPopup(prev => ({
-        ...prev,
+      setPopup(({
+        code: countryCode,
+        content: getMemberStatePopup(member, feature, setPopup),
+        visible: true,
         locked: true,
       }));
     }
