@@ -16,10 +16,13 @@ export const getMemberStatePopup = (
 ) => {
   const countryName = feature.properties?.admin;
   const a2code = feature.properties?.iso_a2_eh?.toLowerCase();
-  let status = "Not Invited";
+  let status = "Not invited";
   switch (member?.status) {
-    case "confirmed":
-      status = "Confirmed";
+    case "accepted":
+      status = "Accepted";
+      break;
+    case "intendToAccept":
+      status = "Intend to accept";
       break;
     case "invited":
       status = "Invited";

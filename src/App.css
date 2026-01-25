@@ -48,6 +48,10 @@
   background-color: #dc3545;
 }
 
+.legend .legend-box.intend-to-accept {
+  background-color: #fd7e14;
+}
+
 .legend .legend-box.invited {
   background-color: #FFC107;
 }

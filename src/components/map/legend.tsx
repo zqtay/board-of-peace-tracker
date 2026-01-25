@@ -22,7 +22,8 @@ const stateList = (states: MemberState[]) => {
 
 export const Legend: FC<LegendProps> = ({ memberData }) => {
   const [popupVisible, setPopupVisible] = useState(false);
-  const confirmedList = memberData?.data.members.filter(m => m.status === "confirmed");
+  const acceptedList = memberData?.data.members.filter(m => m.status === "accepted");
+  const intendToAcceptList = memberData?.data.members.filter(m => m.status === "intendToAccept");
   const invitedList = memberData?.data.members.filter(m => m.status === "invited");
   const declinedList = memberData?.data.members.filter(m => m.status === "declined");
   const withdrawnList = memberData?.data.members.filter(m => m.status === "withdrawn");
@@ -32,8 +33,13 @@ export const Legend: FC<LegendProps> = ({ memberData }) => {
       <table>
         <tr>
           <td><span className="legend-box confirmed"></span></td>
-          <td>Confirmed</td>
-          {confirmedList && <td style={{ textAlign: "right" }}>{confirmedList.length}</td>}
+          <td>Accepted</td>
+          {acceptedList && <td style={{ textAlign: "right" }}>{acceptedList.length}</td>}
+        </tr>
+        <tr>
+          <td><span className="legend-box intend-to-accept"></span></td>
+          <td>Intend to accept</td>
+          {intendToAcceptList && <td style={{ textAlign: "right" }}>{intendToAcceptList.length}</td>}
         </tr>
         <tr>
           <td><span className="legend-box invited"></span></td>
@@ -52,7 +58,7 @@ export const Legend: FC<LegendProps> = ({ memberData }) => {
         </tr>
         <tr>
           <td><span className="legend-box not-invited"></span></td>
-          <td>Not Invited</td>
+          <td>Not invited</td>
         </tr>
       </table>
     </div>
@@ -64,8 +70,10 @@ export const Legend: FC<LegendProps> = ({ memberData }) => {
       >
         X
       </div>
-      <div style={{ fontWeight: 600, fontSize: "16px" }}>Confirmed</div>
-      {stateList(confirmedList!)}
+      <div style={{ fontWeight: 600, fontSize: "16px" }}>Accepted</div>
+      {stateList(acceptedList!)}
+      <div style={{ fontWeight: 600, fontSize: "16px" }}>Intend to accept</div>
+      {stateList(intendToAcceptList!)}
       <div style={{ fontWeight: 600, fontSize: "16px" }}>Invited</div>
       {stateList(invitedList!)}
       <div style={{ fontWeight: 600, fontSize: "16px" }}>Declined</div>

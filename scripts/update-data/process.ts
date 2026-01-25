@@ -27,9 +27,10 @@ const main = async (html: string) => {
 
   const title = $('title').text().trim();
 
-  const confirmedList = findFirstElementAfter($, 'p:contains("have confirmed ")', 'ul');
+  const accpetedList = findFirstElementAfter($, 'p:contains("states have signed")', 'ul');
+  const intendToAcceptList = findFirstElementAfter($, 'p:contains("intend to accept ")', 'ul');
   const invitedList = findFirstElementAfter($, 'p:contains("had not respond")', 'ul');
-  const declinedList = findFirstElementAfter($, 'p:contains("declined their invitation")', 'ul');
+  const declinedList = findFirstElementAfter($, 'p:contains("have declined")', 'ul');
   const withdrawnList = findFirstElementAfter($, 'p:contains("withdrawn")', 'ul');
 
   const parseCountry = (e: Element) => {
@@ -59,7 +60,8 @@ const main = async (html: string) => {
   };
 
   const members = [
-    ...confirmedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "confirmed" })).get(),
+    ...accpetedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "accepted" })).get(),
+    ...intendToAcceptList.children('li').map((_, el) => ({ ...parseCountry(el), status: "intendToAccept" })).get(),
     ...invitedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "invited" })).get(),
     ...declinedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "declined" })).get(),
     ...withdrawnList.children('li').map((_, el) => ({ ...parseCountry(el), status: "withdrawn" })).get(),
