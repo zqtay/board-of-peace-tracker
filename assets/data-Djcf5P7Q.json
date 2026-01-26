@@ -58,18 +58,6 @@
         "status": "accepted"
       },
       {
-        "name": "Belarus",
-        "alpha2": "BY",
-        "alpha3": "BLR",
-        "references": [
-          {
-            "text": "\"Lukashenko joins Trump's 'Board of Peace' as US eases his isolation\". Reuters. 20 January 2026. Retrieved 20 January 2026.",
-            "link": "https://www.reuters.com/world/lukashenko-joins-trumps-board-peace-us-eases-his-isolation-2026-01-20/"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
         "name": "Bulgaria",
         "alpha2": "BG",
         "alpha3": "BGR",
@@ -278,6 +266,18 @@
         "status": "intendToAccept"
       },
       {
+        "name": "Belarus",
+        "alpha2": "BY",
+        "alpha3": "BLR",
+        "references": [
+          {
+            "text": "\"Lukashenko joins Trump's 'Board of Peace' as US eases his isolation\". Reuters. 20 January 2026. Retrieved 20 January 2026.",
+            "link": "https://www.reuters.com/world/lukashenko-joins-trumps-board-peace-us-eases-his-isolation-2026-01-20/"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
         "name": "Egypt",
         "alpha2": "EG",
         "alpha3": "EGY",
@@ -419,7 +419,7 @@
         "alpha3": "CZE",
         "references": [
           {
-            "text": "\"Česko dostalo pozvánku do Trumpovy Rady míru - Novinky\". Novinky.cz (in Czech). 22 January 2026.",
+            "text": "\"Česko dostalo pozvánku do Trumpovy Rady míru – Novinky\". Novinky.cz (in Czech). 22 January 2026.",
             "link": "https://www.novinky.cz/clanek/domaci-cesko-dostalo-pozvanku-do-trumpovy-rady-miru-40558721"
           }
         ],
@@ -790,5 +790,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-01-25T16:46:15.514Z"
+  "retrieval_date": "2026-01-26T07:11:42.058Z"
 }
