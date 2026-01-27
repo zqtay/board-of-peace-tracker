@@ -3,14 +3,14 @@ import { Element } from 'domhandler';
 import { DATA_SOURCE_URL } from "./constant";
 import countries from 'i18n-iso-countries';
 
-const findFirstElementAfter = ($: cheerio.CheerioAPI, selector: string, targetSelector: string) => {
+const findElementAfter = ($: cheerio.CheerioAPI, selector: string, targetSelector: string, index: number = 0) => {
   const combined = $(`${selector}, ${targetSelector}`);
   const startIndex = combined.index($(selector).first());
 
   // Get all elements in the set after the start element
   const $targets = combined.slice(startIndex + 1).filter(targetSelector);
 
-  return $targets.first();
+  return $targets.eq(index);
 };
 
 const normalizeCountryName = (name: string) => {
@@ -27,11 +27,11 @@ const main = async (html: string) => {
 
   const title = $('title').text().trim();
 
-  const accpetedList = findFirstElementAfter($, 'p:contains("states have signed")', 'ul');
-  const intendToAcceptList = findFirstElementAfter($, 'p:contains("intend to accept ")', 'ul');
-  const invitedList = findFirstElementAfter($, 'p:contains("had not respond")', 'ul');
-  const declinedList = findFirstElementAfter($, 'p:contains("have declined")', 'ul');
-  const withdrawnList = findFirstElementAfter($, 'p:contains("withdrawn")', 'ul');
+  const accpetedList = findElementAfter($, 'h4:contains("Acceptors")', 'ul');
+  const intendToAcceptList = findElementAfter($, 'h4:contains("Acceptors")', 'ul', 1);
+  const invitedList = findElementAfter($, 'h4:contains("Invitees")', 'ul');
+  const withdrawnList = findElementAfter($, 'h4:contains("Invitees")', 'ul', 1);
+  const declinedList = findElementAfter($, 'h4:contains("Invitees")', 'ul', 2);
 
   const parseCountry = (e: Element) => {
     const $e = $(e);
@@ -63,8 +63,8 @@ const main = async (html: string) => {
     ...accpetedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "accepted" })).get(),
     ...intendToAcceptList.children('li').map((_, el) => ({ ...parseCountry(el), status: "intendToAccept" })).get(),
     ...invitedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "invited" })).get(),
-    ...declinedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "declined" })).get(),
     ...withdrawnList.children('li').map((_, el) => ({ ...parseCountry(el), status: "withdrawn" })).get(),
+    ...declinedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "declined" })).get(),
   ];
 
   const result = {
