@@ -2,255 +2,31 @@
   "data": {
     "members": [
       {
-        "name": "Argentina",
-        "alpha2": "AR",
-        "alpha3": "ARG",
-        "references": [
-          {
-            "text": "\"Argentina's Milei invited by Trump to join Gaza Board of Peace, calls it 'an honor'\". The Times of Israel. Agence France-Presse. 17 January 2026. Retrieved 20 January 2026.",
-            "link": "https://www.timesofisrael.com/liveblog_entry/argentinas-milei-invited-by-trump-to-join-gaza-board-of-peace-calls-it-an-honor/"
-          }
-        ],
+        "name": "Donald Trump who serves as Chairman for Life.",
+        "alpha2": null,
+        "alpha3": null,
+        "references": [],
         "status": "accepted"
       },
       {
-        "name": "Armenia",
-        "alpha2": "AM",
-        "alpha3": "ARM",
-        "references": [
-          {
-            "text": "\"Armenian PM accepts Trump's invitation to join the Board of Peace\". Armenpress. 20 January 2026. Retrieved 20 January 2026.",
-            "link": "https://armenpress.am/en/article/1240027"
-          },
-          {
-            "text": "Bardouka, Yousef (20 January 2026). \"Trump invites Pashinyan to join Gaza Board of Peace\". OC Media. Retrieved 20 January 2026.",
-            "link": "https://oc-media.org/trump-invites-pashinyan-to-join-gaza-board-of-peace/"
-          }
-        ],
+        "name": "The main Board of Peace composed mainly of the leaders of countries. About sixty have been invited.",
+        "alpha2": null,
+        "alpha3": null,
+        "references": [],
         "status": "accepted"
       },
       {
-        "name": "Azerbaijan",
-        "alpha2": "AZ",
-        "alpha3": "AZE",
-        "references": [
-          {
-            "text": "\"Azerbaijan says it agreed to join Trump's 'Board of Peace'\". Reuters. 21 January 2026. Retrieved 21 January 2026.",
-            "link": "https://www.reuters.com/world/azerbaijan-says-it-agreed-join-trumps-board-peace-2026-01-21/"
-          },
-          {
-            "text": "Ministry of Foreign Affairs of the Republic of Azerbaijan (21 January 2026). \"No:014/26, Press Release on the decision of the Republic of Azerbaijan to join the Board of Peace, announced by the U.S. President Donald J. Trump\". mfa.gov.az. Retrieved 21 January 2026.",
-            "link": "https://mfa.gov.az/en/news/no01426"
-          }
-        ],
+        "name": "The Executive Board with a focus on diplomacy and investment. Seven members have been appointed.",
+        "alpha2": null,
+        "alpha3": null,
+        "references": [],
         "status": "accepted"
       },
       {
-        "name": "Bahrain",
-        "alpha2": "BH",
-        "alpha3": "BHR",
-        "references": [
-          {
-            "text": "\"Abraham Accords partners Bahrain, Morocco are first to sign Board of Peace charter\". The Times of Israel. 22 January 2026. Retrieved 22 January 2026.",
-            "link": "https://www.timesofisrael.com/liveblog_entry/abraham-accords-partners-bahrain-morocco-are-first-to-sign-board-of-peace-charter/"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Bulgaria",
-        "alpha2": "BG",
-        "alpha3": "BGR",
-        "references": [
-          {
-            "text": "Isufi, Perparim; Firat Biyuk, Hamdi; Todorov, Svetoslav (22 January 2026). \"Kosovo, Bulgaria, Turkey Join Trump's 'Board of Peace'\". Prishtina Insight. Retrieved 22 January 2026.",
-            "link": "https://prishtinainsight.com/kosovo-bulgaria-turkey-join-trumps-board-of-peace/"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Hungary",
-        "alpha2": "HU",
-        "alpha3": "HUN",
-        "references": [
-          {
-            "text": "Jacobs, Jennifer; Cook, Sara; Watson, Kathryn (20 January 2026). \"More than 10 countries have signed on to Trump's \"Board of Peace,\" sources say\". CBS News. Retrieved 20 January 2026.",
-            "link": "https://www.cbsnews.com/news/trump-board-of-peace-countries/"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Indonesia",
-        "alpha2": "ID",
-        "alpha3": "IDN",
-        "references": [
-          {
-            "text": "Shofa, Jayanty Nada (22 January 2026). \"Indonesia Joins Trump's Board of Peace for Gaza\". Jakarta Globe. Retrieved 22 January 2026.",
-            "link": "https://jakartaglobe.id/news/indonesia-joins-trumps-board-of-peace-for-gaza"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Jordan",
-        "alpha2": "JO",
-        "alpha3": "JOR",
-        "references": [
-          {
-            "text": "Cleary, Olivia-Anne; Sutherland, Callum (22 January 2026). \"Trump Unveils Gaza 'Board of Peace' at Davos. See the List\". TIME.",
-            "link": "https://time.com/7357067/trump-gaza-board-of-peace-members-davos/"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Kazakhstan",
-        "alpha2": "KZ",
-        "alpha3": "KAZ",
-        "references": [
-          {
-            "text": "Sabi, Ulpan (19 January 2026). \"Trump invites Tokayev and Kazakhstan to the Peace Council\". Tengri News. Retrieved 20 January 2026.",
-            "link": "https://en.tengrinews.kz/kazakhstan_news/trump-invites-tokayev-and-kazakhstan-to-the-peace-council-270730/"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Kosovo",
-        "alpha2": "XK",
-        "alpha3": "XKK",
-        "references": [
-          {
-            "text": "\"Trump letër Osmanit, e fton Republikën e Kosovës të bëhet shtet themelues i Kartës së Bordit të Paqes\". Gazeta Express. 21 January 2026. Retrieved 21 January 2026.",
-            "link": "https://www.gazetaexpress.com/trump-leter-osmanit-e-fton-republiken-e-kosoves-te-behet-shtet-themelues-i-kartes-se-bordit-te-paqes/"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Mongolia",
-        "alpha2": "MN",
-        "alpha3": "MNG",
-        "references": [
-          {
-            "text": "\"Trump unveils 'Board of Peace' in Davos ceremony, claims Gaza war 'down to little fires'\". New York Post. 22 January 2026. Retrieved 22 January 2026.",
-            "link": "https://nypost.com/2026/01/22/us-news/trump-unveils-board-of-peace-during-signing-ceremony-in-davos/"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Morocco",
-        "alpha2": "MA",
-        "alpha3": "MAR",
-        "references": [
-          {
-            "text": "\"Morocco accepts Trump's invite to 'Board of Peace', Putin yet to decide\". ABC News. 19 January 2026. Retrieved 20 January 2026.",
-            "link": "https://www.abc.net.au/news/2026-01-20/morocco-accepts-trump-invite-to-peace-board-putin-yet-to-decide/106247306"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Pakistan",
-        "alpha2": "PK",
-        "alpha3": "PAK",
-        "references": [
-          {
-            "text": "Ministry of Foreign Affairs of the Government of Pakistan (21 January 2026). \"Pakistan Accepts Invitation for Joining the Board of Peace (BoP) with the View to Achieving Lasting Peace in Gaza\". mofa.gov.pk. Retrieved 21 January 2026.",
-            "link": "https://mofa.gov.pk/press-releases/pakistan-accepts-invitation-for-joining-the-board-of-peace-bop-with-the-view-to-achieving-lasting-peace-in-gaza#:~:text=Donald%20J.%20Trump%2C%20Pakistan%20would,Nations%20Security%20Council%20Resolution%202803."
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Paraguay",
-        "alpha2": "PY",
-        "alpha3": "PRY",
-        "references": [
-          {
-            "text": "\"Trump invitó a Erdogan, Al Sisi, Milei y Peña a unirse al Consejo de la Paz que tendrá a cargo la administración de la Franja de Gaza\" [Trump invited Erdogan, Al Sisi, Milei and Peña to join the Peace Council that will be responsible for administering the Gaza Strip.]. Infobae (in Spanish). 17 January 2026. Retrieved 17 January 2026.",
-            "link": "https://www.infobae.com/america/mundo/2026/01/17/trump-invito-a-erdogan-al-sisi-y-milei-a-unirse-al-consejo-de-la-paz-que-tendra-a-cargo-la-administracion-de-la-franja-de-gaza/"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Qatar",
-        "alpha2": "QA",
-        "alpha3": "QAT",
-        "references": [
-          {
-            "text": "\"Saudi Arabia, Turkey, Egypt, Jordan, Indonesia, Pakistan, Qatar, UAE join Trump's 'Board of Peace'\". Reuters. 21 January 2026. Retrieved 22 January 2026.",
-            "link": "https://www.reuters.com/world/asia-pacific/saudi-arabia-turkey-egypt-jordan-indonesia-pakistan-qatar-uae-join-trumps-board-2026-01-21/"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Saudi Arabia",
-        "alpha2": "SA",
-        "alpha3": "SAU",
-        "references": [
-          {
-            "text": "\"Saudi Arabia, Turkey, Egypt, Jordan, Indonesia, Pakistan, Qatar, UAE join Trump's 'Board of Peace'\". Reuters. 21 January 2026. Retrieved 22 January 2026.",
-            "link": "https://www.reuters.com/world/asia-pacific/saudi-arabia-turkey-egypt-jordan-indonesia-pakistan-qatar-uae-join-trumps-board-2026-01-21/"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Turkey",
-        "alpha2": "TR",
-        "alpha3": "TUR",
-        "references": [
-          {
-            "text": "\"Saudi Arabia, Turkey, Egypt, Jordan, Indonesia, Pakistan, Qatar, UAE join Trump's 'Board of Peace'\". Reuters. 21 January 2026. Retrieved 22 January 2026.",
-            "link": "https://www.reuters.com/world/asia-pacific/saudi-arabia-turkey-egypt-jordan-indonesia-pakistan-qatar-uae-join-trumps-board-2026-01-21/"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "United Arab Emirates",
-        "alpha2": "AE",
-        "alpha3": "ARE",
-        "references": [
-          {
-            "text": "\"UAE President accepts US invitation to the Board of Peace\". The UAE Ministry of Foreign Affairs (MOFA). 20 January 2026. Retrieved 20 January 2026.",
-            "link": "https://www.mofa.gov.ae/en/MediaHub/News/2026/1/20/UAE-US"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "United States",
-        "alpha2": "US",
-        "alpha3": "USA",
-        "references": [
-          {
-            "text": "\"Statement on President Trump's Comprehensive Plan to End the Gaza Conflict\". The White House. 16 January 2026. Retrieved 20 January 2026.",
-            "link": "https://www.whitehouse.gov/briefings-statements/2026/01/statement-on-president-trumps-comprehensive-plan-to-end-the-gaza-conflict/"
-          },
-          {
-            "text": "\"President Trump Ratifies Board of Peace in Historic Ceremony, Opening Path to Hope and Dignity for Gazans\". The White House. 22 January 2026.",
-            "link": "https://www.whitehouse.gov/articles/2026/01/president-trump-ratifies-board-of-peace-in-historic-ceremony-opening-path-to-hope-and-dignity-for-gazans/"
-          }
-        ],
-        "status": "accepted"
-      },
-      {
-        "name": "Uzbekistan",
-        "alpha2": "UZ",
-        "alpha3": "UZB",
-        "references": [
-          {
-            "text": "\"President of Uzbekistan agrees to join Board of Peace on invitation of US president\". Gazeta. 19 January 2026. Retrieved 20 January 2026.",
-            "link": "https://www.gazeta.uz/en/2026/01/19/peace-council/"
-          }
-        ],
+        "name": "The Gaza Executive Board to direct the National Committee for the Administration of Gaza which will administer the territory. Its head is titled the High Representative for Gaza and Nickolay Mladenov has been appointed along with ten other members.",
+        "alpha2": null,
+        "alpha3": null,
+        "references": [],
         "status": "accepted"
       },
       {
@@ -273,6 +49,22 @@
           {
             "text": "\"Lukashenko joins Trump's 'Board of Peace' as US eases his isolation\". Reuters. 20 January 2026. Retrieved 20 January 2026.",
             "link": "https://www.reuters.com/world/lukashenko-joins-trumps-board-peace-us-eases-his-isolation-2026-01-20/"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Cambodia",
+        "alpha2": "KH",
+        "alpha3": "KHM",
+        "references": [
+          {
+            "text": "Chan Thul, Prak (21 January 2026). \"Trump Invites Cambodia to Join Proposed 'Board of Peace'\". Kiripost. Retrieved 21 January 2026.",
+            "link": "https://kiripost.com/stories/trump-invites-cambodia-to-join-proposed-board-of-peace"
+          },
+          {
+            "text": "\"Cambodia to join Trump's Board of Peace, prime minister says\". Reuters. Retrieved 26 January 2026.",
+            "link": "https://www.reuters.com/world/asia-pacific/cambodia-join-trumps-board-peace-prime-minister-says-2026-01-26/"
           }
         ],
         "status": "intendToAccept"
@@ -361,18 +153,6 @@
           {
             "text": "\"Convite de Trump para Conselho em Gaza põe Lula em dilema diplomático\". CNN Brasil. 18 January 2025. Retrieved 18 January 2026.",
             "link": "https://www.cnnbrasil.com.br/blogs/jussara-soares/politica/convite-de-trump-para-conselho-em-gaza-poe-lula-em-dilema-diplomatico/"
-          }
-        ],
-        "status": "invited"
-      },
-      {
-        "name": "Cambodia",
-        "alpha2": "KH",
-        "alpha3": "KHM",
-        "references": [
-          {
-            "text": "Chan Thul, Prak (21 January 2026). \"Trump Invites Cambodia to Join Proposed 'Board of Peace'\". Kiripost. Retrieved 21 January 2026.",
-            "link": "https://kiripost.com/stories/trump-invites-cambodia-to-join-proposed-board-of-peace"
           }
         ],
         "status": "invited"
@@ -565,6 +345,18 @@
           {
             "text": "Bhagyashree Garekar (20 January 2026). \"Singapore invited to join Trump's Board of Peace and is assessing invitation: MFA\". straitstimes.com. The Straits Times. Retrieved 20 January 2026.",
             "link": "https://www.straitstimes.com/world/united-states/singapore-invited-to-join-trumps-board-of-peace-is-assessing-invitation-mfa"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Slovakia",
+        "alpha2": "SK",
+        "alpha3": "SVK",
+        "references": [
+          {
+            "text": "https://spectator.sme.sk/opinion/c/last-week-what-slovakia-s-decision-about-trump-s-board-of-peace-will-tell-us",
+            "link": "https://spectator.sme.sk/opinion/c/last-week-what-slovakia-s-decision-about-trump-s-board-of-peace-will-tell-us"
           }
         ],
         "status": "invited"
@@ -775,7 +567,7 @@
         "alpha3": "CAN",
         "references": [
           {
-            "text": "Prime Minister Mark Carney had agreed in principle to join the board, but ruled out paying for permanent membership.[95] On 22 January 2026, Trump withdrew the invitation, providing no reason for the decision.[96]",
+            "text": "Prime Minister Mark Carney had agreed in principle to join the board, but ruled out paying for permanent membership.[98] On 22 January 2026, Trump withdrew the invitation, providing no reason for the decision.[99]",
             "link": null
           }
         ],
@@ -790,5 +582,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-01-26T07:11:42.058Z"
+  "retrieval_date": "2026-01-27T01:34:49.133Z"
 }
