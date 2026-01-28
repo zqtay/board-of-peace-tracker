@@ -306,6 +306,18 @@
         "status": "intendToAccept"
       },
       {
+        "name": "El Salvador",
+        "alpha2": "SV",
+        "alpha3": "SLV",
+        "references": [
+          {
+            "text": "Magid, Jacob (28 January 2026). \"El Salvador confirmed as 27th country represented on Trump's Board of Peace\". The Times of Israel. Retrieved 28 January 2026.",
+            "link": "https://www.timesofisrael.com/liveblog_entry/el-salvador-confirmed-as-27th-country-represented-on-trumps-board-of-peace/"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
         "name": "Israel",
         "alpha2": "IL",
         "alpha3": "ISR",
@@ -651,7 +663,7 @@
         "alpha3": "CAN",
         "references": [
           {
-            "text": "Prime Minister Mark Carney had agreed in principle to join the board, but ruled out paying for permanent membership.[99] On 22 January 2026, Trump withdrew the invitation, providing no reason for the decision.[100]",
+            "text": "Prime Minister Mark Carney had agreed in principle to join the board, but ruled out paying for permanent membership.[100] On 22 January 2026, Trump withdrew the invitation, providing no reason for the decision.[101]",
             "link": null
           }
         ],
@@ -794,5 +806,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-01-28T05:27:52.935Z"
+  "retrieval_date": "2026-01-28T06:36:18.529Z"
 }
