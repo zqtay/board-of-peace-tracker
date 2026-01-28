@@ -406,18 +406,6 @@
         "status": "invited"
       },
       {
-        "name": "Cyprus",
-        "alpha2": "CY",
-        "alpha3": "CYP",
-        "references": [
-          {
-            "text": "Canivete, Carla (19 January 2026). \"The List of World Leaders Invited to Trump's Board of Peace for Gaza\". Bloomberg News. Retrieved 20 January 2026.",
-            "link": "https://www.bloomberg.com/news/articles/2026-01-19/the-list-of-people-invited-to-trump-s-board-of-peace-for-gaza"
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "Czech Republic",
         "alpha2": "CZ",
         "alpha3": "CZE",
@@ -653,10 +641,22 @@
           {
             "text": "\"Croatia's Prime Minister Is Invited to Join U.S.-Backed Board of Peace, Government Says\". thedubrovniktimes.com. Retrieved 20 January 2026.",
             "link": "https://www.thedubrovniktimes.com/news/croatia/item/19312-croatia-s-prime-minister-is-invited-to-join-u-s-backed-board-of-peace-government-says"
+          }
+        ],
+        "status": "declined"
+      },
+      {
+        "name": "Cyprus",
+        "alpha2": "CY",
+        "alpha3": "CYP",
+        "references": [
+          {
+            "text": "Canivete, Carla (19 January 2026). \"The List of World Leaders Invited to Trump's Board of Peace for Gaza\". Bloomberg News. Retrieved 20 January 2026.",
+            "link": "https://www.bloomberg.com/news/articles/2026-01-19/the-list-of-people-invited-to-trump-s-board-of-peace-for-gaza"
           },
           {
-            "text": "The 20 minute activity is usually a demonstration of the workshop I do at Wigston with the students during Science Week to encourage staff to carry out more practical investigations with their groups. This year we will be making a water filter - https://www.britishscienceweek.org/app/uploads/2026/01/British-Science-Week-2026-Early-Years-activity-pack.pdf?_gl=1*iuotya*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAhOfLBhCCARIsAJPiopOnffIfy-Jk0-dd6xLorQKCDVVx0MZLLyNKBNUl9COfmsd--brPN70aAob1EALw_wcB",
-            "link": "https://www.britishscienceweek.org/app/uploads/2026/01/British-Science-Week-2026-Early-Years-activity-pack.pdf?_gl=1*iuotya*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAhOfLBhCCARIsAJPiopOnffIfy-Jk0-dd6xLorQKCDVVx0MZLLyNKBNUl9COfmsd--brPN70aAob1EALw_wcB"
+            "text": "https://www.index.hr/vijesti/clanak/plenkovic-cuo-sam-se-s-milanovicem-necemo-u-trumpov-odbor-za-mir-vise-je-razloga/2755017.aspx",
+            "link": "https://www.index.hr/vijesti/clanak/plenkovic-cuo-sam-se-s-milanovicem-necemo-u-trumpov-odbor-za-mir-vise-je-razloga/2755017.aspx"
           }
         ],
         "status": "declined"
@@ -810,5 +810,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-01-28T17:32:16.430Z"
+  "retrieval_date": "2026-01-28T18:37:29.842Z"
 }
