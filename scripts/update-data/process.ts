@@ -27,11 +27,11 @@ const main = async (html: string) => {
 
   const title = $('title').text().trim();
 
-  const accpetedList = findElementAfter($, 'h4:contains("Acceptors")', 'ul');
-  const intendToAcceptList = findElementAfter($, 'h4:contains("Acceptors")', 'ul', 1);
-  const invitedList = findElementAfter($, 'h4:contains("Invitees")', 'ul');
-  const withdrawnList = findElementAfter($, 'h4:contains("Invitees")', 'ul', 1);
-  const declinedList = findElementAfter($, 'h4:contains("Invitees")', 'ul', 2);
+  const accpetedList = findElementAfter($, 'h4:contains("accept")', 'ul');
+  const intendToAcceptList = findElementAfter($, 'h4:contains("accept")', 'ul', 1);
+  const invitedList = findElementAfter($, 'h4:contains("invitees")', 'ul');
+  const withdrawnList = findElementAfter($, 'h4:contains("invitees")', 'ul', 1);
+  const declinedList = findElementAfter($, 'h4:contains("invitees")', 'ul', 2);
 
   const parseCountry = (e: Element) => {
     const $e = $(e);
