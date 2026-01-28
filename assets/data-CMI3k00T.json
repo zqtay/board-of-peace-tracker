@@ -406,18 +406,6 @@
         "status": "invited"
       },
       {
-        "name": "Croatia",
-        "alpha2": "HR",
-        "alpha3": "HRV",
-        "references": [
-          {
-            "text": "\"Croatia's Prime Minister Is Invited to Join U.S.-Backed Board of Peace, Government Says\". thedubrovniktimes.com. Retrieved 20 January 2026.",
-            "link": "https://www.thedubrovniktimes.com/news/croatia/item/19312-croatia-s-prime-minister-is-invited-to-join-u-s-backed-board-of-peace-government-says"
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "Cyprus",
         "alpha2": "CY",
         "alpha3": "CYP",
@@ -586,18 +574,6 @@
         "status": "invited"
       },
       {
-        "name": "Slovakia",
-        "alpha2": "SK",
-        "alpha3": "SVK",
-        "references": [
-          {
-            "text": "https://spectator.sme.sk/opinion/c/last-week-what-slovakia-s-decision-about-trump-s-board-of-peace-will-tell-us",
-            "link": "https://spectator.sme.sk/opinion/c/last-week-what-slovakia-s-decision-about-trump-s-board-of-peace-will-tell-us"
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "South Korea",
         "alpha2": "KR",
         "alpha3": "KOR",
@@ -663,11 +639,27 @@
         "alpha3": "CAN",
         "references": [
           {
-            "text": "Prime Minister Mark Carney had agreed in principle to join the board, but ruled out paying for permanent membership.[100] On 22 January 2026, Trump withdrew the invitation, providing no reason for the decision.[101]",
+            "text": "Prime Minister Mark Carney had agreed in principle to join the board, but ruled out paying for permanent membership.[98] On 22 January 2026, Trump withdrew the invitation, providing no reason for the decision.[99]",
             "link": null
           }
         ],
         "status": "withdrawn"
+      },
+      {
+        "name": "Croatia",
+        "alpha2": "HR",
+        "alpha3": "HRV",
+        "references": [
+          {
+            "text": "\"Croatia's Prime Minister Is Invited to Join U.S.-Backed Board of Peace, Government Says\". thedubrovniktimes.com. Retrieved 20 January 2026.",
+            "link": "https://www.thedubrovniktimes.com/news/croatia/item/19312-croatia-s-prime-minister-is-invited-to-join-u-s-backed-board-of-peace-government-says"
+          },
+          {
+            "text": "The 20 minute activity is usually a demonstration of the workshop I do at Wigston with the students during Science Week to encourage staff to carry out more practical investigations with their groups. This year we will be making a water filter - https://www.britishscienceweek.org/app/uploads/2026/01/British-Science-Week-2026-Early-Years-activity-pack.pdf?_gl=1*iuotya*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAhOfLBhCCARIsAJPiopOnffIfy-Jk0-dd6xLorQKCDVVx0MZLLyNKBNUl9COfmsd--brPN70aAob1EALw_wcB",
+            "link": "https://www.britishscienceweek.org/app/uploads/2026/01/British-Science-Week-2026-Early-Years-activity-pack.pdf?_gl=1*iuotya*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAhOfLBhCCARIsAJPiopOnffIfy-Jk0-dd6xLorQKCDVVx0MZLLyNKBNUl9COfmsd--brPN70aAob1EALw_wcB"
+          }
+        ],
+        "status": "declined"
       },
       {
         "name": "France",
@@ -733,6 +725,18 @@
           {
             "text": "\"Germany, Norway, Sweden decline Trump's 'Board of Peace'\". Daily Sabah. 21 January 2026.",
             "link": "https://www.dailysabah.com/world/germany-norway-sweden-decline-trumps-board-of-peace/news"
+          }
+        ],
+        "status": "declined"
+      },
+      {
+        "name": "Slovakia",
+        "alpha2": "SK",
+        "alpha3": "SVK",
+        "references": [
+          {
+            "text": "\"Slovensko sa nateraz nepripojí k Trumpovej Rade mieru, prezident rozhodnutie víta\". SME.sk (in Slovak). Retrieved 28 January 2026.",
+            "link": "https://www.sme.sk/domov/c/slovensko-sa-nateraz-nepripoji-k-trumpovej-rade-mieru"
           }
         ],
         "status": "declined"
@@ -806,5 +810,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-01-28T15:32:09.002Z"
+  "retrieval_date": "2026-01-28T16:37:15.806Z"
 }
