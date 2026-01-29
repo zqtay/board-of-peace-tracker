@@ -406,6 +406,18 @@
         "status": "invited"
       },
       {
+        "name": "Cyprus",
+        "alpha2": "CY",
+        "alpha3": "CYP",
+        "references": [
+          {
+            "text": "Canivete, Carla (19 January 2026). \"The List of World Leaders Invited to Trump's Board of Peace for Gaza\". Bloomberg News. Retrieved 20 January 2026.",
+            "link": "https://www.bloomberg.com/news/articles/2026-01-19/the-list-of-people-invited-to-trump-s-board-of-peace-for-gaza"
+          }
+        ],
+        "status": "invited"
+      },
+      {
         "name": "Czech Republic",
         "alpha2": "CZ",
         "alpha3": "CZE",
@@ -641,18 +653,6 @@
           {
             "text": "\"Croatia will not join the Board of Peace\". Croatiaweek.com. 28 January 2026. Retrieved 29 January 2026.",
             "link": "https://www.croatiaweek.com/croatia-will-not-join-the-board-of-peace/"
-          }
-        ],
-        "status": "declined"
-      },
-      {
-        "name": "Cyprus",
-        "alpha2": "CY",
-        "alpha3": "CYP",
-        "references": [
-          {
-            "text": "Canivete, Carla (19 January 2026). \"The List of World Leaders Invited to Trump's Board of Peace for Gaza\". Bloomberg News. Retrieved 20 January 2026.",
-            "link": "https://www.bloomberg.com/news/articles/2026-01-19/the-list-of-people-invited-to-trump-s-board-of-peace-for-gaza"
           },
           {
             "text": "https://www.index.hr/vijesti/clanak/plenkovic-cuo-sam-se-s-milanovicem-necemo-u-trumpov-odbor-za-mir-vise-je-razloga/2755017.aspx",
@@ -810,5 +810,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-01-29T06:46:47.431Z"
+  "retrieval_date": "2026-01-29T07:39:34.151Z"
 }
