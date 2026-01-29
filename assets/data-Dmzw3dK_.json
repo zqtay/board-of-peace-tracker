@@ -490,18 +490,6 @@
         "status": "invited"
       },
       {
-        "name": "New Zealand",
-        "alpha2": "NZ",
-        "alpha3": "NZL",
-        "references": [
-          {
-            "text": "Gatinois, Claire (20 January 2026). \"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. Archived from the original on 20 January 2026. Retrieved 21 January 2026.",
-            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "Oman",
         "alpha2": "OM",
         "alpha3": "OMN",
@@ -714,6 +702,18 @@
         "status": "declined"
       },
       {
+        "name": "New Zealand",
+        "alpha2": "NZ",
+        "alpha3": "NZL",
+        "references": [
+          {
+            "text": "Pearse, Adam (29 January 2026). \"PM Christopher Luxon declines US President Donald Trump's Board of Peace for Gaza invitation\". The New Zealand Herald. Retrieved 29 January 2026.",
+            "link": "https://www.nzherald.co.nz/nz/politics/pm-christopher-luxon-declines-us-president-donald-trumps-board-of-peace-for-gaza-invitation/V37FPZC5QVHODBZOTSV4T67H2Y/"
+          }
+        ],
+        "status": "declined"
+      },
+      {
         "name": "Norway",
         "alpha2": "NO",
         "alpha3": "NOR",
@@ -810,5 +810,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-01-29T20:30:15.572Z"
+  "retrieval_date": "2026-01-29T21:26:45.217Z"
 }
