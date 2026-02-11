@@ -266,89 +266,13 @@
         "status": "accepted"
       },
       {
-        "name": "Albania",
-        "alpha2": "AL",
-        "alpha3": "ALB",
+        "name": "Israel — 11 February 2026",
+        "alpha2": null,
+        "alpha3": null,
         "references": [
           {
-            "text": "\"\"Albania, be one of the founding members of the Peace Board\"/ Donald Trump invites Rama\". CNA. 17 January 2026. Retrieved 17 January 2026.",
-            "link": "https://www.cna.al/english/politike/shqiperia-te-jete-nje-nga-anetaret-themeluese-te-bordit-te-paqes-donald-i452476"
-          }
-        ],
-        "status": "intendToAccept"
-      },
-      {
-        "name": "Belarus",
-        "alpha2": "BY",
-        "alpha3": "BLR",
-        "references": [
-          {
-            "text": "\"Lukashenko joins Trump's 'Board of Peace' as US eases his isolation\". Reuters. 20 January 2026. Retrieved 20 January 2026.",
-            "link": "https://www.reuters.com/world/lukashenko-joins-trumps-board-peace-us-eases-his-isolation-2026-01-20/"
-          }
-        ],
-        "status": "intendToAccept"
-      },
-      {
-        "name": "Cambodia",
-        "alpha2": "KH",
-        "alpha3": "KHM",
-        "references": [
-          {
-            "text": "Chan Thul, Prak (21 January 2026). \"Trump Invites Cambodia to Join Proposed 'Board of Peace'\". Kiripost. Retrieved 21 January 2026.",
-            "link": "https://kiripost.com/stories/trump-invites-cambodia-to-join-proposed-board-of-peace"
-          },
-          {
-            "text": "\"Cambodia to join Trump's Board of Peace, prime minister says\". Reuters. Retrieved 26 January 2026.",
-            "link": "https://www.reuters.com/world/asia-pacific/cambodia-join-trumps-board-peace-prime-minister-says-2026-01-26/"
-          }
-        ],
-        "status": "intendToAccept"
-      },
-      {
-        "name": "Egypt",
-        "alpha2": "EG",
-        "alpha3": "EGY",
-        "references": [
-          {
-            "text": "Ministry of Foreign Affairs of the Arab Republic of Egypt (21 January 2026). \"مصر ترحب بالدعوة للانضمام لمجلس السلام\" [Egypt has welcomed the invitation to join the Board of Peace]. www.mfa.gov.eg (in Arabic). Retrieved 21 January 2026.",
-            "link": "https://www.mfa.gov.eg/ar/Ministers/Details/StatementsAndWordsOfTheMinisterOfForeignAffairs/4106"
-          }
-        ],
-        "status": "intendToAccept"
-      },
-      {
-        "name": "Israel",
-        "alpha2": "IL",
-        "alpha3": "ISR",
-        "references": [
-          {
-            "text": "\"Israel's Netanyahu agrees to join Trump's Board of Peace\". 21 January 2026.",
-            "link": "https://www.npr.org/2026/01/21/g-s1-106641/netanyahu-join-trump-board-of-peace"
-          }
-        ],
-        "status": "intendToAccept"
-      },
-      {
-        "name": "Kuwait",
-        "alpha2": "KW",
-        "alpha3": "KWT",
-        "references": [
-          {
-            "text": "\"Kuwait welcomes US President's invitation to join Board of Peace\". KUNA. 21 January 2026. Retrieved 21 January 2026.",
-            "link": "https://www.kuna.net.kw/ArticleDetails.aspx?id=3271420"
-          }
-        ],
-        "status": "intendToAccept"
-      },
-      {
-        "name": "Vietnam",
-        "alpha2": "VN",
-        "alpha3": "VNM",
-        "references": [
-          {
-            "text": "\"Viet Nam accepts invitation to join Gaza Peace Council\". Nhân Dân. Communist Party of Vietnam. 18 January 2026. Retrieved 18 January 2026. Party General Secretary To Lam has accepted the invitation from US President Donald Trump to join the Gaza Peace Council and affirmed Viet Nam's readiness to participate as a founding member state of the council.",
-            "link": "https://en.nhandan.vn/viet-nam-accepts-invitation-to-join-gaza-peace-council-post157984.html"
+            "text": "Berman, Lazar (11 February 2026). \"Meeting Rubio, Netanyahu officially signs on to Board of Peace\". The Times of Israel. ISSN 0040-7909. Retrieved 11 February 2026.",
+            "link": "https://www.timesofisrael.com/liveblog_entry/meeting-rubio-netanyahu-officially-signs-on-to-board-of-peace/"
           }
         ],
         "status": "intendToAccept"
@@ -846,5 +770,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-02-11T19:04:41.786Z"
+  "retrieval_date": "2026-02-11T20:38:24.147Z"
 }
