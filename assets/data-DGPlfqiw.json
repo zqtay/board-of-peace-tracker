@@ -754,6 +754,18 @@
         "status": "declined"
       },
       {
+        "name": "Poland",
+        "alpha2": "PL",
+        "alpha3": "POL",
+        "references": [
+          {
+            "text": "\"Poland and Italy say they will not join Trump's Board of Peace\". reuters.com. Reuters. 11 February 2026. Retrieved 11 February 2026.",
+            "link": "https://www.reuters.com/world/poland-will-not-join-board-peace-under-current-circumstances-pm-says-2026-02-11/"
+          }
+        ],
+        "status": "declined"
+      },
+      {
         "name": "Slovakia",
         "alpha2": "SK",
         "alpha3": "SVK",
@@ -834,5 +846,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-02-11T13:09:29.945Z"
+  "retrieval_date": "2026-02-11T14:52:58.394Z"
 }
