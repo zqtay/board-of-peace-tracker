@@ -366,18 +366,6 @@
         "status": "invited"
       },
       {
-        "name": "Greece",
-        "alpha2": "GR",
-        "alpha3": "GRC",
-        "references": [
-          {
-            "text": "Gatinois, Claire (20 January 2026). \"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. Archived from the original on 20 January 2026. Retrieved 21 January 2026.",
-            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "India",
         "alpha2": "IN",
         "alpha3": "IND",
@@ -450,18 +438,6 @@
         "status": "invited"
       },
       {
-        "name": "Poland",
-        "alpha2": "PL",
-        "alpha3": "POL",
-        "references": [
-          {
-            "text": "\"Trump invites Polish president to join Gaza Board of Peace, aide says\". Reuters. 20 January 2026. Retrieved 20 January 2026.",
-            "link": "https://www.reuters.com/world/middle-east/trump-invites-polish-president-join-gaza-board-peace-aide-says-2026-01-19/"
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "Portugal",
         "alpha2": "PT",
         "alpha3": "PRT",
@@ -479,7 +455,7 @@
         "alpha3": "ROU",
         "references": [
           {
-            "text": "On 8 February 2026, Romanian President Nicușor Dan stated that he was interested in joining the board \"on [the] condition its charter is revised\".[85]",
+            "text": "On 8 February 2026, Romanian President Nicușor Dan stated that he was interested in joining the board \"on [the] condition its charter is revised\".[84]",
             "link": null
           }
         ],
@@ -575,7 +551,7 @@
         "alpha3": "CAN",
         "references": [
           {
-            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[90] On 22 January 2026, Trump withdrew the invitation.[91]",
+            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[89] On 22 January 2026, Trump withdrew the invitation.[90]",
             "link": null
           }
         ],
@@ -617,6 +593,22 @@
           {
             "text": "\"Germany, Norway, Sweden decline Trump's 'Board of Peace'\". Daily Sabah. 21 January 2026.",
             "link": "https://www.dailysabah.com/world/germany-norway-sweden-decline-trumps-board-of-peace/news"
+          }
+        ],
+        "status": "declined"
+      },
+      {
+        "name": "Greece",
+        "alpha2": "GR",
+        "alpha3": "GRC",
+        "references": [
+          {
+            "text": "Gatinois, Claire (20 January 2026). \"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. Archived from the original on 20 January 2026. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          },
+          {
+            "text": "\"Greek PM not planning to join US president's 'Board of Peace' | eKathimerini.com\". Ekathimerini. 12 February 2026. Retrieved 12 February 2026.",
+            "link": "https://www.ekathimerini.com/politics/foreign-policy/1295121/greek-pm-not-planning-to-join-us-presidents-board-of-peace/"
           }
         ],
         "status": "declined"
@@ -770,5 +762,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-02-12T22:32:32.141Z"
+  "retrieval_date": "2026-02-12T23:28:47.227Z"
 }
