@@ -330,18 +330,6 @@
         "status": "invited"
       },
       {
-        "name": "Cyprus",
-        "alpha2": "CY",
-        "alpha3": "CYP",
-        "references": [
-          {
-            "text": "Canivete, Carla (19 January 2026). \"The List of World Leaders Invited to Trump's Board of Peace for Gaza\". Bloomberg News. Retrieved 20 January 2026.",
-            "link": "https://www.bloomberg.com/news/articles/2026-01-19/the-list-of-people-invited-to-trump-s-board-of-peace-for-gaza"
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "Czech Republic",
         "alpha2": "CZ",
         "alpha3": "CZE",
@@ -395,7 +383,7 @@
         "alpha3": "MEX",
         "references": [
           {
-            "text": "President Trump formally invited Mexico to join the Board on 27 January 2026. The Mexican government said, on 2 February, that President Claudia Sheinbaum will soon respond to the invitation.[82]",
+            "text": "President Trump formally invited Mexico to join the Board on 27 January 2026. The Mexican government said, on 2 February, that President Claudia Sheinbaum will soon respond to the invitation.[84]",
             "link": null
           }
         ],
@@ -455,7 +443,7 @@
         "alpha3": "ROU",
         "references": [
           {
-            "text": "On 8 February 2026, Romanian President Nicușor Dan stated that he was interested in joining the board \"on [the] condition its charter is revised\".[84]",
+            "text": "On 8 February 2026, Romanian President Nicușor Dan stated that he was interested in joining the board \"on [the] condition its charter is revised\".[86]",
             "link": null
           }
         ],
@@ -551,7 +539,7 @@
         "alpha3": "CAN",
         "references": [
           {
-            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[89] On 22 January 2026, Trump withdrew the invitation.[90]",
+            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[91] On 22 January 2026, Trump withdrew the invitation.[92]",
             "link": null
           }
         ],
@@ -762,5 +750,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-02-16T02:07:17.648Z"
+  "retrieval_date": "2026-02-16T04:58:26.802Z"
 }
