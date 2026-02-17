@@ -474,24 +474,12 @@
         "status": "invited"
       },
       {
-        "name": "Holy See (Vatican City State)",
-        "alpha2": "VA",
-        "alpha3": "VAT",
-        "references": [
-          {
-            "text": "Grittenand, David; Hagan, Rachel (21 January 2026). \"Seven more countries agree to join Trump's Board of Peace\". BBC. Retrieved 22 January 2026.",
-            "link": "https://www.bbc.com/news/articles/cn8jek4vv8ko"
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "Canada",
         "alpha2": "CA",
         "alpha3": "CAN",
         "references": [
           {
-            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[93] On 22 January 2026, Trump withdrew the invitation.[94]",
+            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[92] On 22 January 2026, Trump withdrew the invitation.[93]",
             "link": null
           }
         ],
@@ -680,6 +668,18 @@
           }
         ],
         "status": "declined"
+      },
+      {
+        "name": "Holy See (Vatican City State)",
+        "alpha2": "VA",
+        "alpha3": "VAT",
+        "references": [
+          {
+            "text": "TASR (17 February 2026). \"Vatikán vyhlásil, že sa nebude podieľať na Trumpovej Rade mieru\". Sme (in Slovak). Retrieved 17 February 2026.",
+            "link": "https://www.sme.sk/svet/c/vatikan-vyhlasil-ze-sa-nebude-podielat-na-trumpovej-rade-mieru"
+          }
+        ],
+        "status": "declined"
       }
     ]
   },
@@ -690,5 +690,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-02-17T22:31:34.950Z"
+  "retrieval_date": "2026-02-17T23:28:44.253Z"
 }
