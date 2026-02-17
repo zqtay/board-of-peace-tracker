@@ -438,18 +438,6 @@
         "status": "invited"
       },
       {
-        "name": "Romania",
-        "alpha2": "RO",
-        "alpha3": "ROU",
-        "references": [
-          {
-            "text": "On 8 February 2026, Romanian President Nicușor Dan stated that he was interested in joining the board \"on [the] condition its charter is revised\".[90]",
-            "link": null
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "Russia",
         "alpha2": "RU",
         "alpha3": "RUS",
@@ -539,7 +527,7 @@
         "alpha3": "CAN",
         "references": [
           {
-            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[95] On 22 January 2026, Trump withdrew the invitation.[96]",
+            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[94] On 22 January 2026, Trump withdrew the invitation.[95]",
             "link": null
           }
         ],
@@ -586,22 +574,6 @@
         "status": "declined"
       },
       {
-        "name": "Greece",
-        "alpha2": "GR",
-        "alpha3": "GRC",
-        "references": [
-          {
-            "text": "Gatinois, Claire (20 January 2026). \"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. Archived from the original on 20 January 2026. Retrieved 21 January 2026.",
-            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
-          },
-          {
-            "text": "\"Greek PM not planning to join US president's 'Board of Peace' | eKathimerini.com\". Ekathimerini. 12 February 2026. Retrieved 12 February 2026.",
-            "link": "https://www.ekathimerini.com/politics/foreign-policy/1295121/greek-pm-not-planning-to-join-us-presidents-board-of-peace/"
-          }
-        ],
-        "status": "declined"
-      },
-      {
         "name": "Ireland",
         "alpha2": "IE",
         "alpha3": "IRL",
@@ -613,18 +585,6 @@
           {
             "text": "\"Harris: No scenario in which Ireland joins Board of Peace\". RTÉ. 22 January 2026.",
             "link": "https://www.rte.ie/news/world/2026/0122/1554422-board-of-peace/"
-          }
-        ],
-        "status": "declined"
-      },
-      {
-        "name": "Italy",
-        "alpha2": "IT",
-        "alpha3": "ITA",
-        "references": [
-          {
-            "text": "\"L'Italia dirà no al Board of peace voluto da Trump: anche la Costituzione è un ostacolo\". Corriere della Sera. 21 January 2026.",
-            "link": "https://roma.corriere.it/notizie/politica/26_gennaio_21/italia-board-of-peace-trump-no-7faa518e-d767-4ac5-8492-76cbf4f1exlk.shtml"
           }
         ],
         "status": "declined"
@@ -750,5 +710,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-02-16T23:28:43.469Z"
+  "retrieval_date": "2026-02-17T02:04:39.617Z"
 }
