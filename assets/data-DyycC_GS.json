@@ -290,18 +290,6 @@
         "status": "invited"
       },
       {
-        "name": "Austria",
-        "alpha2": "AT",
-        "alpha3": "AUT",
-        "references": [
-          {
-            "text": "Canivete, Carla (19 January 2026). \"The List of World Leaders Invited to Trump's Board of Peace for Gaza\". Bloomberg News. Retrieved 20 January 2026.",
-            "link": "https://www.bloomberg.com/news/articles/2026-01-19/the-list-of-people-invited-to-trump-s-board-of-peace-for-gaza"
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "Brazil",
         "alpha2": "BR",
         "alpha3": "BRA",
@@ -383,7 +371,7 @@
         "alpha3": "MEX",
         "references": [
           {
-            "text": "President Trump formally invited Mexico to join the Board on 27 January 2026. The Mexican government said, on 2 February, that President Claudia Sheinbaum will soon respond to the invitation.[88]",
+            "text": "President Trump formally invited Mexico to join the Board on 27 January 2026. The Mexican government said, on 2 February, that President Claudia Sheinbaum will soon respond to the invitation.[89]",
             "link": null
           }
         ],
@@ -527,11 +515,27 @@
         "alpha3": "CAN",
         "references": [
           {
-            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[94] On 22 January 2026, Trump withdrew the invitation.[95]",
+            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[95] On 22 January 2026, Trump withdrew the invitation.[96]",
             "link": null
           }
         ],
         "status": "withdrawn"
+      },
+      {
+        "name": "Austria",
+        "alpha2": "AT",
+        "alpha3": "AUT",
+        "references": [
+          {
+            "text": "Canivete, Carla (19 January 2026). \"The List of World Leaders Invited to Trump's Board of Peace for Gaza\". Bloomberg News. Retrieved 20 January 2026.",
+            "link": "https://www.bloomberg.com/news/articles/2026-01-19/the-list-of-people-invited-to-trump-s-board-of-peace-for-gaza"
+          },
+          {
+            "text": "Son Hoang, Kim (17 February 2026). \"Mehr Europa bei Trumps Friedensrat – Österreich lehnt Beitritt ab\". DER STANDARD (in Austrian German). Retrieved 17 February 2026.",
+            "link": "https://www.derstandard.de/story/3000000308665/mehr-europa-bei-trumps-friedensrat"
+          }
+        ],
+        "status": "declined"
       },
       {
         "name": "Croatia",
@@ -710,5 +714,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-02-17T20:37:40.550Z"
+  "retrieval_date": "2026-02-17T21:35:46.482Z"
 }
