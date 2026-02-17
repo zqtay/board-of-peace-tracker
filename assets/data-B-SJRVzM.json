@@ -318,18 +318,6 @@
         "status": "invited"
       },
       {
-        "name": "Czech Republic",
-        "alpha2": "CZ",
-        "alpha3": "CZE",
-        "references": [
-          {
-            "text": "\"Česko dostalo pozvánku do Trumpovy Rady míru – Novinky\". Novinky.cz (in Czech). 22 January 2026.",
-            "link": "https://www.novinky.cz/clanek/domaci-cesko-dostalo-pozvanku-do-trumpovy-rady-miru-40558721"
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "Finland",
         "alpha2": "FI",
         "alpha3": "FIN",
@@ -361,18 +349,6 @@
           {
             "text": "Gatinois, Claire (20 January 2026). \"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. Archived from the original on 20 January 2026. Retrieved 21 January 2026.",
             "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
-          }
-        ],
-        "status": "invited"
-      },
-      {
-        "name": "Mexico",
-        "alpha2": "MX",
-        "alpha3": "MEX",
-        "references": [
-          {
-            "text": "President Trump formally invited Mexico to join the Board on 27 January 2026. The Mexican government said, on 2 February, that President Claudia Sheinbaum will soon respond to the invitation.[89]",
-            "link": null
           }
         ],
         "status": "invited"
@@ -515,7 +491,7 @@
         "alpha3": "CAN",
         "references": [
           {
-            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[95] On 22 January 2026, Trump withdrew the invitation.[96]",
+            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[93] On 22 January 2026, Trump withdrew the invitation.[94]",
             "link": null
           }
         ],
@@ -714,5 +690,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-02-17T21:35:46.482Z"
+  "retrieval_date": "2026-02-17T22:31:34.950Z"
 }
