@@ -266,9 +266,9 @@
         "status": "intendToAccept"
       },
       {
-        "name": "Israel — 11 February 2026",
-        "alpha2": null,
-        "alpha3": null,
+        "name": "Israel",
+        "alpha2": "IL",
+        "alpha3": "ISR",
         "references": [
           {
             "text": "Berman, Lazar (11 February 2026). \"Meeting Rubio, Netanyahu officially signs on to Board of Peace\". The Times of Israel. ISSN 0040-7909. Retrieved 11 February 2026.",
@@ -690,5 +690,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-02-18T14:43:53.072Z"
+  "retrieval_date": "2026-02-18T15:52:04.232Z"
 }
