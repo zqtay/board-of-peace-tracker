@@ -555,7 +555,7 @@
         "alpha3": "CAN",
         "references": [
           {
-            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[93] On 22 January 2026, Trump withdrew the invitation.[94]",
+            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[94] On 22 January 2026, Trump withdrew the invitation.[95]",
             "link": null
           }
         ],
@@ -662,30 +662,6 @@
         "status": "declined"
       },
       {
-        "name": "Poland",
-        "alpha2": "PL",
-        "alpha3": "POL",
-        "references": [
-          {
-            "text": "\"Poland and Italy say they will not join Trump's Board of Peace\". reuters.com. Reuters. 11 February 2026. Retrieved 11 February 2026.",
-            "link": "https://www.reuters.com/world/poland-will-not-join-board-peace-under-current-circumstances-pm-says-2026-02-11/"
-          }
-        ],
-        "status": "declined"
-      },
-      {
-        "name": "Slovakia",
-        "alpha2": "SK",
-        "alpha3": "SVK",
-        "references": [
-          {
-            "text": "\"Slovensko sa nateraz nepripojí k Trumpovej Rade mieru, prezident rozhodnutie víta\". SME.sk (in Slovak). Retrieved 28 January 2026.",
-            "link": "https://www.sme.sk/domov/c/slovensko-sa-nateraz-nepripoji-k-trumpovej-rade-mieru"
-          }
-        ],
-        "status": "declined"
-      },
-      {
         "name": "Slovenia",
         "alpha2": "SI",
         "alpha3": "SVN",
@@ -766,5 +742,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-02-19T22:31:36.164Z"
+  "retrieval_date": "2026-02-19T23:30:24.487Z"
 }
