@@ -526,18 +526,6 @@
         "status": "invited"
       },
       {
-        "name": "Ukraine",
-        "alpha2": "UA",
-        "alpha3": "UKR",
-        "references": [
-          {
-            "text": "Gatinois, Claire (20 January 2026). \"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. Retrieved 21 January 2026.",
-            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "Canada",
         "alpha2": "CA",
         "alpha3": "CAN",
@@ -571,7 +559,7 @@
         "alpha3": "HRV",
         "references": [
           {
-            "text": "\"Croatia will not join the Board of Peace\". Croatiaweek.com. 28 January 2026. Retrieved 29 January 2026.",
+            "text": "\"Croatia will not join the Board of Peace\". Croatiaweek.com. 28 January 2026. Retrieved 29 January 2026. Will not, at this time",
             "link": "https://www.croatiaweek.com/croatia-will-not-join-the-board-of-peace/"
           },
           {
@@ -720,6 +708,22 @@
           }
         ],
         "status": "declined"
+      },
+      {
+        "name": "Ukraine",
+        "alpha2": "UA",
+        "alpha3": "UKR",
+        "references": [
+          {
+            "text": "Gatinois, Claire (20 January 2026). \"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          },
+          {
+            "text": "Jeyaretnam, Miranda (19 February 2026). \"Who's Joining Trump's Board of Peace—and Who's Not\". TIME. Retrieved 23 February 2026.",
+            "link": "https://time.com/7379643/trump-board-peace-countries-joining-rejected-invitations-membership/"
+          }
+        ],
+        "status": "declined"
       }
     ]
   },
@@ -730,5 +734,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-02-23T18:02:40.053Z"
+  "retrieval_date": "2026-02-23T19:56:44.364Z"
 }
