@@ -394,18 +394,6 @@
         "status": "invited"
       },
       {
-        "name": "India",
-        "alpha2": "IN",
-        "alpha3": "IND",
-        "references": [
-          {
-            "text": "Bhattacherjee, Kallol (18 January 2026). \"India invited to sit on Trump's Board of Peace for Gaza\". The Hindu. ISSN 0971-751X. Archived from the original on 20 January 2026. Retrieved 18 January 2026.",
-            "link": "https://www.thehindu.com/news/national/india-invited-to-sit-on-trumps-board-of-peace-for-gaza/article70523013.ece"
-          }
-        ],
-        "status": "invited"
-      },
-      {
         "name": "Japan",
         "alpha2": "JP",
         "alpha3": "JPN",
@@ -531,7 +519,7 @@
         "alpha3": "CAN",
         "references": [
           {
-            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[96] On 22 January 2026, Trump withdrew the invitation.[97]",
+            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[95] On 22 January 2026, Trump withdrew the invitation.[96]",
             "link": null
           }
         ],
@@ -734,5 +722,5 @@
       "text": "Board of Peace - Wikipedia"
     }
   ],
-  "retrieval_date": "2026-02-24T07:12:20.875Z"
+  "retrieval_date": "2026-02-24T08:49:40.753Z"
 }
