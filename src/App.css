@@ -62,6 +62,10 @@
   background-color: #fd7e14;
 }
 
+.legend .legend-box.observer {
+  background-color: #2baea1;
+}
+
 .legend .legend-box.invited {
   background-color: #FFC107;
 }

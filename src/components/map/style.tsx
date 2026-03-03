@@ -23,6 +23,9 @@ export const getMemberStateStyle = (member: MemberState) => {
     case "intendToAccept":
       fillColor = "#fd7e14";
       break;
+    case "observer":
+      fillColor = "#2baea1";
+      break;
     case "declined":
       fillColor = "#007bff";
       break;

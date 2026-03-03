@@ -24,6 +24,7 @@ export const Legend: FC<LegendProps> = ({ memberData }) => {
   const [popupVisible, setPopupVisible] = useState(false);
   const acceptedList = memberData?.data.members.filter(m => m.status === "accepted");
   const intendToAcceptList = memberData?.data.members.filter(m => m.status === "intendToAccept");
+  const observerList = memberData?.data.members.filter(m => m.status === "observer");
   const invitedList = memberData?.data.members.filter(m => m.status === "invited");
   const declinedList = memberData?.data.members.filter(m => m.status === "declined");
   const withdrawnList = memberData?.data.members.filter(m => m.status === "withdrawn");
@@ -40,6 +41,11 @@ export const Legend: FC<LegendProps> = ({ memberData }) => {
           <td><span className="legend-box intend-to-accept"></span></td>
           <td>Intend to accept</td>
           {intendToAcceptList && <td style={{ textAlign: "right" }}>{intendToAcceptList.length}</td>}
+        </tr>
+        <tr>
+          <td><span className="legend-box observer"></span></td>
+          <td>Observers</td>
+          {observerList && <td style={{ textAlign: "right" }}>{observerList.length}</td>}
         </tr>
         <tr>
           <td><span className="legend-box invited"></span></td>
@@ -74,6 +80,8 @@ export const Legend: FC<LegendProps> = ({ memberData }) => {
       {stateList(acceptedList!)}
       <div style={{ fontWeight: 600, fontSize: "16px" }}>Intend to accept</div>
       {stateList(intendToAcceptList!)}
+      <div style={{ fontWeight: 600, fontSize: "16px" }}>Observers</div>
+      {stateList(observerList!)}
       <div style={{ fontWeight: 600, fontSize: "16px" }}>Invited</div>
       {stateList(invitedList!)}
       <div style={{ fontWeight: 600, fontSize: "16px" }}>Declined</div>

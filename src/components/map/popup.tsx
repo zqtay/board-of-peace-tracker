@@ -24,6 +24,9 @@ export const getMemberStatePopup = (
     case "intendToAccept":
       status = "Intend to accept";
       break;
+    case "observer":
+      status = "Observer";
+      break;
     case "invited":
       status = "Invited";
       break;
