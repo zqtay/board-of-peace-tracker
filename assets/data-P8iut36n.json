@@ -1,0 +1,762 @@
+{
+  "data": {
+    "members": [
+      {
+        "name": "Belarus",
+        "alpha2": "BY",
+        "alpha3": "BLR",
+        "references": [
+          {
+            "text": "\"Lukashenko joins Trump's 'Board of Peace' as US eases his isolation\". Reuters. 20 January 2026. Retrieved 20 January 2026.",
+            "link": "https://www.reuters.com/world/lukashenko-joins-trumps-board-peace-us-eases-his-isolation-2026-01-20/"
+          },
+          {
+            "text": "\"La Biélorussie absente à la première réunion du «Conseil de paix» de Donald Trump faute d'avoir reçu les visas nécessaires, selon Minsk\". Le Figaro (in French). 20 February 2026. Retrieved 6 April 2026.",
+            "link": "https://www.lefigaro.fr/international/la-bielorussie-absente-a-la-premiere-reunion-du-conseil-de-paix-de-donald-trump-faute-d-avoir-recu-les-visas-necessaires-selon-minsk-20260220"
+          }
+        ],
+        "status": "accepted"
+      },
+      {
+        "name": "Austria",
+        "alpha2": "AT",
+        "alpha3": "AUT",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Croatia",
+        "alpha2": "HR",
+        "alpha3": "HRV",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Cyprus",
+        "alpha2": "CY",
+        "alpha3": "CYP",
+        "references": [
+          {
+            "text": "Evripidou, Stefanos (15 February 2026). \"Cyprus Joins Gaza Peace Board as Observer Amid Concerns Over UN Bypass\". Politis (Cyprus). Retrieved 16 February 2026.",
+            "link": "https://en.politis.com.cy/globe/globe-wide-world/986624/cyprus-joins-gaza-peace-board-as-observer-amid-concerns-over-un-bypass"
+          },
+          {
+            "text": "Turner, Katy (14 February 2026). \"Cyprus to attend Board of Peace meeting as observer\". Cyprus Mail. Retrieved 16 February 2026.",
+            "link": "https://cyprus-mail.com/2026/02/14/cyprus-to-attend-board-of-peace-meeting-as-observer"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Czech Republic",
+        "alpha2": "CZ",
+        "alpha3": "CZE",
+        "references": [
+          {
+            "text": "\"Macinka To Attend First Meeting of Trump's 'Board of Peace' In Washington On Thursday\". Brno Daily. 16 February 2026. Retrieved 17 February 2026.",
+            "link": "https://brnodaily.com/2026/02/17/news/politics/macinka-to-attend-first-meeting-of-trumps-board-of-peace-in-washington-on-thursday/"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Finland",
+        "alpha2": "FI",
+        "alpha3": "FIN",
+        "references": [
+          {
+            "text": "\"Presidentti Stubb kutsuttu mukaan Trumpin johtamaan Gazan \"rauhanneuvostoon\"\". Helsingin Sanomat (in Finnish). 19 January 2026. Archived from the original on 20 January 2026. Retrieved 20 January 2026.",
+            "link": "https://www.hs.fi/politiikka/art-2000011758577.html"
+          },
+          {
+            "text": "\"Suomen lippu näkyi Trumpin \"rauhanneuvoston\" kokouksessa\". Helsingin Sanomat (in Finnish). 19 February 2026. Archived from the original on 19 February 2026. Retrieved 20 February 2026.",
+            "link": "https://www.hs.fi/maailma/art-2000011830912.html"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Germany",
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Greece",
+        "alpha2": "GR",
+        "alpha3": "GRC",
+        "references": [
+          {
+            "text": "\"Greece to join Tump's Board of Peace meeting as observer | eKathimerini.com\". www.ekathimerini.com. 16 February 2026. Retrieved 16 February 2026.",
+            "link": "https://www.ekathimerini.com/politics/foreign-policy/1295452/greece-to-join-tumps-board-of-peace-meeting-as-observer/"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "India",
+        "alpha2": "IN",
+        "alpha3": "IND",
+        "references": [
+          {
+            "text": "\"India attends Trump-hosted Board of Peace meeting as observer\". Money Control. 19 February 2026. Archived from the original on 19 February 2026. Retrieved 19 February 2026.",
+            "link": "https://www.moneycontrol.com/world/india-attends-trump-hosted-board-of-peace-meeting-as-observer-article-13836462.html"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Italy",
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "references": [
+          {
+            "text": "\"Italy opts in, cautiously, to Trump's Gaza Board of Peace\". Decode39. 16 February 2026. Archived from the original on 17 February 2026. Retrieved 16 February 2026.",
+            "link": "https://decode39.com/13526/italy-opts-in-cautiously-to-trumps-gaza-board-of-peace/"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Japan",
+        "alpha2": "JP",
+        "alpha3": "JPN",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Mexico",
+        "alpha2": "MX",
+        "alpha3": "MEX",
+        "references": [
+          {
+            "text": "Parker, Ian Hayden (17 February 2026). \"Mexico declines Trump Peace Board invite over Palestine\". Puerto Vallarta News. Retrieved 17 February 2026.",
+            "link": "https://www.vallartadaily.com/mexico-news/mexico-declines-trump-peace-board-invite-over-palestine/"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Netherlands",
+        "alpha2": "NL",
+        "alpha3": "NLD",
+        "references": [
+          {
+            "text": "Gatinois, Claire (20 January 2026). \"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Norway",
+        "alpha2": "NO",
+        "alpha3": "NOR",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Oman",
+        "alpha2": "OM",
+        "alpha3": "OMN",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Poland",
+        "alpha2": "PL",
+        "alpha3": "POL",
+        "references": [
+          {
+            "text": "\"Jak przebiegało pierwsze posiedzenie Rady Pokoju? Trump kazał wstać kilku przywódcom\". Wprost. 19 February 2026. Archived from the original on 19 February 2026. Retrieved 19 February 2026.",
+            "link": "https://www.wprost.pl/swiat/12255825/rada-pokoju-na-pierwszym-zebraniu-trump-chwalil-swoje-dokonania-i-grozil-iranowi.html"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Romania",
+        "alpha2": "RO",
+        "alpha3": "ROU",
+        "references": [
+          {
+            "text": "Ernst, Iulian (16 February 2026). \"Romania attends Board of Peace summit in US as observer\". Romania Insider. Retrieved 16 February 2026.",
+            "link": "https://www.romania-insider.com/romania-observer-board-peace-meeting-feb-2026?amp"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Slovakia",
+        "alpha2": "SK",
+        "alpha3": "SVK",
+        "references": [
+          {
+            "text": "\"Country-by-country: Where EU countries stand on Trump's Board of Peace\". Euractiv. 17 February 2026. Slovakia will attend the inaugural meeting as an observer, the foreign ministry confirmed on Tuesday, reversing an earlier refusal to join.",
+            "link": "https://www.euractiv.com/news/country-by-country-where-eu-countries-stand-on-trumps-board-of-peace/"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "South Korea",
+        "alpha2": "KR",
+        "alpha3": "KOR",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Switzerland",
+        "alpha2": "CH",
+        "alpha3": "CHE",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Thailand",
+        "alpha2": "TH",
+        "alpha3": "THA",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "United Kingdom",
+        "alpha2": "GB",
+        "alpha3": "GBR",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "intendToAccept"
+      },
+      {
+        "name": "Austria",
+        "alpha2": "AT",
+        "alpha3": "AUT",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Croatia",
+        "alpha2": "HR",
+        "alpha3": "HRV",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Cyprus",
+        "alpha2": "CY",
+        "alpha3": "CYP",
+        "references": [
+          {
+            "text": "Evripidou, Stefanos (15 February 2026). \"Cyprus Joins Gaza Peace Board as Observer Amid Concerns Over UN Bypass\". Politis (Cyprus). Retrieved 16 February 2026.",
+            "link": "https://en.politis.com.cy/globe/globe-wide-world/986624/cyprus-joins-gaza-peace-board-as-observer-amid-concerns-over-un-bypass"
+          },
+          {
+            "text": "Turner, Katy (14 February 2026). \"Cyprus to attend Board of Peace meeting as observer\". Cyprus Mail. Retrieved 16 February 2026.",
+            "link": "https://cyprus-mail.com/2026/02/14/cyprus-to-attend-board-of-peace-meeting-as-observer"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Czech Republic",
+        "alpha2": "CZ",
+        "alpha3": "CZE",
+        "references": [
+          {
+            "text": "\"Macinka To Attend First Meeting of Trump's 'Board of Peace' In Washington On Thursday\". Brno Daily. 16 February 2026. Retrieved 17 February 2026.",
+            "link": "https://brnodaily.com/2026/02/17/news/politics/macinka-to-attend-first-meeting-of-trumps-board-of-peace-in-washington-on-thursday/"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Finland",
+        "alpha2": "FI",
+        "alpha3": "FIN",
+        "references": [
+          {
+            "text": "\"Presidentti Stubb kutsuttu mukaan Trumpin johtamaan Gazan \"rauhanneuvostoon\"\". Helsingin Sanomat (in Finnish). 19 January 2026. Archived from the original on 20 January 2026. Retrieved 20 January 2026.",
+            "link": "https://www.hs.fi/politiikka/art-2000011758577.html"
+          },
+          {
+            "text": "\"Suomen lippu näkyi Trumpin \"rauhanneuvoston\" kokouksessa\". Helsingin Sanomat (in Finnish). 19 February 2026. Archived from the original on 19 February 2026. Retrieved 20 February 2026.",
+            "link": "https://www.hs.fi/maailma/art-2000011830912.html"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Germany",
+        "alpha2": "DE",
+        "alpha3": "DEU",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Greece",
+        "alpha2": "GR",
+        "alpha3": "GRC",
+        "references": [
+          {
+            "text": "\"Greece to join Tump's Board of Peace meeting as observer | eKathimerini.com\". www.ekathimerini.com. 16 February 2026. Retrieved 16 February 2026.",
+            "link": "https://www.ekathimerini.com/politics/foreign-policy/1295452/greece-to-join-tumps-board-of-peace-meeting-as-observer/"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "India",
+        "alpha2": "IN",
+        "alpha3": "IND",
+        "references": [
+          {
+            "text": "\"India attends Trump-hosted Board of Peace meeting as observer\". Money Control. 19 February 2026. Archived from the original on 19 February 2026. Retrieved 19 February 2026.",
+            "link": "https://www.moneycontrol.com/world/india-attends-trump-hosted-board-of-peace-meeting-as-observer-article-13836462.html"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Italy",
+        "alpha2": "IT",
+        "alpha3": "ITA",
+        "references": [
+          {
+            "text": "\"Italy opts in, cautiously, to Trump's Gaza Board of Peace\". Decode39. 16 February 2026. Archived from the original on 17 February 2026. Retrieved 16 February 2026.",
+            "link": "https://decode39.com/13526/italy-opts-in-cautiously-to-trumps-gaza-board-of-peace/"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Japan",
+        "alpha2": "JP",
+        "alpha3": "JPN",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Mexico",
+        "alpha2": "MX",
+        "alpha3": "MEX",
+        "references": [
+          {
+            "text": "Parker, Ian Hayden (17 February 2026). \"Mexico declines Trump Peace Board invite over Palestine\". Puerto Vallarta News. Retrieved 17 February 2026.",
+            "link": "https://www.vallartadaily.com/mexico-news/mexico-declines-trump-peace-board-invite-over-palestine/"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Netherlands",
+        "alpha2": "NL",
+        "alpha3": "NLD",
+        "references": [
+          {
+            "text": "Gatinois, Claire (20 January 2026). \"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Norway",
+        "alpha2": "NO",
+        "alpha3": "NOR",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Oman",
+        "alpha2": "OM",
+        "alpha3": "OMN",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Poland",
+        "alpha2": "PL",
+        "alpha3": "POL",
+        "references": [
+          {
+            "text": "\"Jak przebiegało pierwsze posiedzenie Rady Pokoju? Trump kazał wstać kilku przywódcom\". Wprost. 19 February 2026. Archived from the original on 19 February 2026. Retrieved 19 February 2026.",
+            "link": "https://www.wprost.pl/swiat/12255825/rada-pokoju-na-pierwszym-zebraniu-trump-chwalil-swoje-dokonania-i-grozil-iranowi.html"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Romania",
+        "alpha2": "RO",
+        "alpha3": "ROU",
+        "references": [
+          {
+            "text": "Ernst, Iulian (16 February 2026). \"Romania attends Board of Peace summit in US as observer\". Romania Insider. Retrieved 16 February 2026.",
+            "link": "https://www.romania-insider.com/romania-observer-board-peace-meeting-feb-2026?amp"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Slovakia",
+        "alpha2": "SK",
+        "alpha3": "SVK",
+        "references": [
+          {
+            "text": "\"Country-by-country: Where EU countries stand on Trump's Board of Peace\". Euractiv. 17 February 2026. Slovakia will attend the inaugural meeting as an observer, the foreign ministry confirmed on Tuesday, reversing an earlier refusal to join.",
+            "link": "https://www.euractiv.com/news/country-by-country-where-eu-countries-stand-on-trumps-board-of-peace/"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "South Korea",
+        "alpha2": "KR",
+        "alpha3": "KOR",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Switzerland",
+        "alpha2": "CH",
+        "alpha3": "CHE",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Thailand",
+        "alpha2": "TH",
+        "alpha3": "THA",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "United Kingdom",
+        "alpha2": "GB",
+        "alpha3": "GBR",
+        "references": [
+          {
+            "text": "\"Countries that attended Trump's first Board of Peace meeting in Washington\". Associated Press. 19 February 2026. Retrieved 6 April 2026.",
+            "link": "https://apnews.com/article/trump-board-of-peace-participants-b9b7e438caeca308c153b60c032895b9"
+          }
+        ],
+        "status": "observer"
+      },
+      {
+        "name": "Australia",
+        "alpha2": "AU",
+        "alpha3": "AUS",
+        "references": [
+          {
+            "text": "Nardelli, Alberto; Wickham, Alex (18 January 2026). \"Albanese invited to join Trump's 'Board of Peace' for Gaza\". Australian Financial Review. Archived from the original on 19 January 2026. Retrieved 20 January 2026.",
+            "link": "https://www.afr.com/world/north-america/broad-mandate-of-trump-s-board-of-peace-sets-it-up-as-rival-to-un-20260118-p5nuui"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Brazil",
+        "alpha2": "BR",
+        "alpha3": "BRA",
+        "references": [
+          {
+            "text": "\"Mandato no conselho de paz de Gaza será de 3 anos ou vitalício para quem doar US$ 1 bilhão, diz agência; Lula foi convidado\". G1. 18 January 2025. Archived from the original on 20 January 2026. Retrieved 18 January 2026.",
+            "link": "https://g1.globo.com/mundo/noticia/2026/01/18/conselho-de-paz-de-gaza-preve-mandato-de-3-anos-ou-cargo-vitalicio-para-quem-doar-us-1-bilhao-diz-agencia-lula-foi-convidado.ghtml"
+          },
+          {
+            "text": "\"Convite de Trump para Conselho em Gaza põe Lula em dilema diplomático\". CNN Brasil. 18 January 2025. Retrieved 18 January 2026.",
+            "link": "https://www.cnnbrasil.com.br/blogs/jussara-soares/politica/convite-de-trump-para-conselho-em-gaza-poe-lula-em-dilema-diplomatico/"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "China",
+        "alpha2": "CN",
+        "alpha3": "CHN",
+        "references": [
+          {
+            "text": "\"China invited to join Trump's 'Board of Peace'\". Reuters. 20 January 2026. Retrieved 20 January 2026.",
+            "link": "https://www.reuters.com/world/china/china-invited-join-trumps-board-peace-2026-01-20/"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Philippines",
+        "alpha2": "PH",
+        "alpha3": "PHL",
+        "references": [
+          {
+            "text": "Pedrajas, Joseph (5 February 2026). \"Trump invited Marcos to join Board of Peace — PH envoy\". Manila Bulletin. Retrieved 5 February 2026.",
+            "link": "https://mb.com.ph/2026/02/05/trump-invited-marcos-to-join-board-of-peace-ph-envoy"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Portugal",
+        "alpha2": "PT",
+        "alpha3": "PRT",
+        "references": [
+          {
+            "text": "Gatinois, Claire (20 January 2026). \"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Russia",
+        "alpha2": "RU",
+        "alpha3": "RUS",
+        "references": [
+          {
+            "text": "\"Vladimir Putin invited to join 'Peace Council' for Gaza, Kremlin says\". Sky News. 19 January 2026. Archived from the original on 19 January 2026. Retrieved 20 January 2026.",
+            "link": "https://news.sky.com/story/putin-invited-join-peace-council-for-gaza-kremlin-says-13494883"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Singapore",
+        "alpha2": "SG",
+        "alpha3": "SGP",
+        "references": [
+          {
+            "text": "Bhagyashree Garekar (20 January 2026). \"Singapore invited to join Trump's Board of Peace and is assessing invitation: MFA\". straitstimes.com. The Straits Times. Archived from the original on 21 January 2026. Retrieved 20 January 2026.",
+            "link": "https://www.straitstimes.com/world/united-states/singapore-invited-to-join-trumps-board-of-peace-is-assessing-invitation-mfa"
+          }
+        ],
+        "status": "invited"
+      },
+      {
+        "name": "Canada",
+        "alpha2": "CA",
+        "alpha3": "CAN",
+        "references": [
+          {
+            "text": "Prime Minister Mark Carney agreed in principle to join the board, but ruled out paying for permanent membership.[93] On 22 January 2026, Trump withdrew the invitation without giving any reasons, though it is widely believed that the invitation was withdrawn due to Canadian prime Minister Mark Carney gave a speech which hurt Trump's feelings.[94]",
+            "link": null
+          }
+        ],
+        "status": "withdrawn"
+      },
+      {
+        "name": "France",
+        "alpha2": "FR",
+        "alpha3": "FRA",
+        "references": [
+          {
+            "text": "Caulcutt, Clea (19 January 2026). \"France rejects Trump Gaza peace board invite over fears it wants to supplant UN\". Politico. Archived from the original on 20 January 2026. Retrieved 20 January 2026.",
+            "link": "https://www.politico.eu/article/france-rejects-trump-gaza-peace-board-invite-over-fears-it-wants-to-supplant-un/"
+          }
+        ],
+        "status": "declined"
+      },
+      {
+        "name": "Ireland",
+        "alpha2": "IE",
+        "alpha3": "IRL",
+        "references": [
+          {
+            "text": "Coyne, Ellen (19 January 2026). \"Ireland invited to join Donald Trump's 'board of peace' for Gaza\". The Irish Times. Retrieved 23 January 2026.",
+            "link": "https://www.irishtimes.com/ireland/2026/01/19/ireland-invited-to-join-donald-trumps-board-of-peace-for-gaza/"
+          },
+          {
+            "text": "\"Harris: No scenario in which Ireland joins Board of Peace\". RTÉ. 22 January 2026. Archived from the original on 23 January 2026. Retrieved 22 January 2026.",
+            "link": "https://www.rte.ie/news/world/2026/0122/1554422-board-of-peace/"
+          }
+        ],
+        "status": "declined"
+      },
+      {
+        "name": "New Zealand",
+        "alpha2": "NZ",
+        "alpha3": "NZL",
+        "references": [
+          {
+            "text": "Pearse, Adam (29 January 2026). \"PM Christopher Luxon declines US President Donald Trump's Board of Peace for Gaza invitation\". The New Zealand Herald. Retrieved 29 January 2026.",
+            "link": "https://www.nzherald.co.nz/nz/politics/pm-christopher-luxon-declines-us-president-donald-trumps-board-of-peace-for-gaza-invitation/V37FPZC5QVHODBZOTSV4T67H2Y/"
+          }
+        ],
+        "status": "declined"
+      },
+      {
+        "name": "Slovenia",
+        "alpha2": "SI",
+        "alpha3": "SVN",
+        "references": [
+          {
+            "text": "Grittenand, David; Hagan, Rachel (21 January 2026). \"Seven more countries agree to join Trump's Board of Peace\". BBC. Archived from the original on 26 January 2026. Retrieved 22 January 2026.",
+            "link": "https://www.bbc.com/news/articles/cn8jek4vv8ko"
+          }
+        ],
+        "status": "declined"
+      },
+      {
+        "name": "Spain",
+        "alpha2": "ES",
+        "alpha3": "ESP",
+        "references": [
+          {
+            "text": "\"España estudia la invitación de Trump para formar parte de la Junta de Paz de Gaza\". El País (in Spanish). 20 January 2026. Archived from the original on 21 January 2026. Retrieved 21 January 2026.",
+            "link": "https://elpais.com/espana/2026-01-21/espana-estudia-la-invitacion-de-trump-para-formar-parte-de-la-junta-de-paz-de-gaza.html"
+          },
+          {
+            "text": "\"Spain will not join Trump's Board of Peace, PM says\". Reuters. 23 January 2026. Retrieved 23 January 2026.",
+            "link": "https://www.reuters.com/world/spain-will-not-join-trumps-board-peace-pm-says-2026-01-23/"
+          }
+        ],
+        "status": "declined"
+      },
+      {
+        "name": "Sweden",
+        "alpha2": "SE",
+        "alpha3": "SWE",
+        "references": [
+          {
+            "text": "\"Sweden joins Norway, France in turning down offer to join Trump's Board of Peace\". Times of Israel. Retrieved 21 January 2026.",
+            "link": "https://www.timesofisrael.com/liveblog_entry/sweden-joins-norway-france-in-turning-down-offer-to-join-trumps-board-of-peace/"
+          },
+          {
+            "text": "\"Germany, Norway, Sweden decline Trump's 'Board of Peace'\". Daily Sabah. 21 January 2026. Archived from the original on 22 January 2026. Retrieved 21 January 2026.",
+            "link": "https://www.dailysabah.com/world/germany-norway-sweden-decline-trumps-board-of-peace/news"
+          }
+        ],
+        "status": "declined"
+      },
+      {
+        "name": "Holy See (Vatican City State)",
+        "alpha2": "VA",
+        "alpha3": "VAT",
+        "references": [
+          {
+            "text": "TASR (17 February 2026). \"Vatikán vyhlásil, že sa nebude podieľať na Trumpovej Rade mieru\". Sme (in Slovak). Retrieved 17 February 2026.",
+            "link": "https://www.sme.sk/svet/c/vatikan-vyhlasil-ze-sa-nebude-podielat-na-trumpovej-rade-mieru"
+          }
+        ],
+        "status": "declined"
+      },
+      {
+        "name": "Ukraine",
+        "alpha2": "UA",
+        "alpha3": "UKR",
+        "references": [
+          {
+            "text": "Gatinois, Claire (20 January 2026). \"Trump's 'board of peace' fails to spark enthusiasm among world leaders\". Le Monde. Retrieved 21 January 2026.",
+            "link": "https://www.lemonde.fr/en/international/article/2026/01/20/donald-trump-s-peace-council-fails-to-spark-enthusiasm-among-world-leaders_6749600_4.html"
+          },
+          {
+            "text": "Jeyaretnam, Miranda (19 February 2026). \"Who's Joining Trump's Board of Peace—and Who's Not\". TIME. Retrieved 23 February 2026.",
+            "link": "https://time.com/7379643/trump-board-peace-countries-joining-rejected-invitations-membership/"
+          }
+        ],
+        "status": "declined"
+      }
+    ]
+  },
+  "references": [
+    {
+      "type": "source",
+      "link": "https://en.wikipedia.org/wiki/Board_of_Peace",
+      "text": "Board of Peace - Wikipedia"
+    }
+  ],
+  "retrieval_date": "2026-04-07T01:25:05.064Z"
+}
