@@ -27,3 +27,9 @@ export type StateGeoJson = FeatureCollection<Polygon | MultiPolygon, {
   name: string;
   iso_a3_eh: string;
 }>;
+
+export type StatusConfig = {
+  status: string;
+  label: string;
+  color: string;
+};

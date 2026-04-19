@@ -1,7 +1,7 @@
 import { CircleMarker } from "react-leaflet";
 import { getCenter, SMALL_COUNTRIES_CODES } from "../../lib/map";
 import { useMemo, type Dispatch, type FC, type SetStateAction } from "react";
-import type { MemberListData, StateGeoJson } from "../../services/data/types";
+import type { MemberListData, StateGeoJson, StatusConfig } from "../../services/data/types";
 import { defaultStateStyle, getMemberStateStyle } from "./style";
 import { type PopupState } from "./popup";
 import { getEventHandlers } from "./event";
@@ -9,12 +9,13 @@ import { getEventHandlers } from "./event";
 type SmallStateMarkersProps = {
   geoJson: StateGeoJson;
   memberData: MemberListData;
+  statusConfig: StatusConfig[];
   popup: PopupState;
   setPopup: Dispatch<SetStateAction<PopupState>>;
 };
 
 export const SmallStateMarkers: FC<SmallStateMarkersProps> = ({
-  geoJson, memberData, popup, setPopup
+  geoJson, memberData, statusConfig, popup, setPopup
 }) => {
   return geoJson.features.map((feature, index) => {
 
@@ -29,7 +30,7 @@ export const SmallStateMarkers: FC<SmallStateMarkersProps> = ({
     );
 
     const style = useMemo(() => {
-      const baseStyle = member ? getMemberStateStyle(member!) : defaultStateStyle;
+      const baseStyle = member ? getMemberStateStyle(member!, statusConfig) : defaultStateStyle;
       return baseStyle;
     }, [member]);
 

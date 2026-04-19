@@ -1,8 +1,9 @@
 import { useState, type FC } from "react";
-import type { MemberListData, MemberState } from "../../services/data/types";
+import type { MemberListData, MemberState, StatusConfig } from "../../services/data/types";
 
 type LegendProps = {
   memberData?: MemberListData;
+  statusConfig: StatusConfig[];
 };
 
 const stateList = (states: MemberState[]) => {
@@ -20,50 +21,28 @@ const stateList = (states: MemberState[]) => {
   </ul>;
 };
 
-export const Legend: FC<LegendProps> = ({ memberData }) => {
+const DEFAULT_COLOR = "#6c757d";
+
+export const Legend: FC<LegendProps> = ({ memberData, statusConfig }) => {
   const [popupVisible, setPopupVisible] = useState(false);
-  const memberList = memberData?.data.members.filter(m => m.status === "member");
-  const acceptedList = memberData?.data.members.filter(m => m.status === "accepted");
-  const observerList = memberData?.data.members.filter(m => m.status === "observer");
-  const invitedList = memberData?.data.members.filter(m => m.status === "invited");
-  const declinedList = memberData?.data.members.filter(m => m.status === "declined");
-  const withdrawnList = memberData?.data.members.filter(m => m.status === "withdrawn");
+
+  const statusGroups = statusConfig.map(config => ({
+    ...config,
+    members: memberData?.data.members.filter(m => m.status === config.status) ?? [],
+  }));
 
   return <>
     <div className="card legend" onClick={() => setPopupVisible(true)}>
       <table>
+        {statusGroups.map((group) => (
+          <tr key={`legend-${group.status}`}>
+            <td><span className="legend-box" style={{ backgroundColor: group.color }}></span></td>
+            <td>{group.label}</td>
+            {memberData && <td style={{ textAlign: "right" }}>{group.members.length}</td>}
+          </tr>
+        ))}
         <tr>
-          <td><span className="legend-box confirmed"></span></td>
-          <td>Member</td>
-          {memberList && <td style={{ textAlign: "right" }}>{memberList.length}</td>}
-        </tr>
-        <tr>
-          <td><span className="legend-box intend-to-accept"></span></td>
-          <td>Accept</td>
-          {acceptedList && <td style={{ textAlign: "right" }}>{acceptedList.length}</td>}
-        </tr>
-        <tr>
-          <td><span className="legend-box observer"></span></td>
-          <td>Observers</td>
-          {observerList && <td style={{ textAlign: "right" }}>{observerList.length}</td>}
-        </tr>
-        <tr>
-          <td><span className="legend-box invited"></span></td>
-          <td>Invited</td>
-          {invitedList && <td style={{ textAlign: "right" }}>{invitedList.length}</td>}
-        </tr>
-        <tr>
-          <td><span className="legend-box declined"></span></td>
-          <td>Declined</td>
-          {declinedList && <td style={{ textAlign: "right" }}>{declinedList.length}</td>}
-        </tr>
-        <tr>
-          <td><span className="legend-box withdrawn"></span></td>
-          <td>Withdrawn</td>
-          {withdrawnList && <td style={{ textAlign: "right" }}>{withdrawnList.length}</td>}
-        </tr>
-        <tr>
-          <td><span className="legend-box not-invited"></span></td>
+          <td><span className="legend-box" style={{ backgroundColor: DEFAULT_COLOR }}></span></td>
           <td>Not invited</td>
         </tr>
       </table>
@@ -76,18 +55,12 @@ export const Legend: FC<LegendProps> = ({ memberData }) => {
       >
         X
       </div>
-      <div style={{ fontWeight: 600, fontSize: "16px" }}>Member</div>
-      {stateList(memberList!)}
-      <div style={{ fontWeight: 600, fontSize: "16px" }}>Accepted</div>
-      {stateList(acceptedList!)}
-      <div style={{ fontWeight: 600, fontSize: "16px" }}>Observers</div>
-      {stateList(observerList!)}
-      <div style={{ fontWeight: 600, fontSize: "16px" }}>Invited</div>
-      {stateList(invitedList!)}
-      <div style={{ fontWeight: 600, fontSize: "16px" }}>Declined</div>
-      {stateList(declinedList!)}
-      <div style={{ fontWeight: 600, fontSize: "16px" }}>Withdrawn</div>
-      {stateList(withdrawnList!)}
+      {statusGroups.map((group) => (
+        group.members.length > 0 && <div key={`popup-${group.status}`}>
+          <div style={{ fontWeight: 600, fontSize: "16px" }}>{group.label}</div>
+          {stateList(group.members)}
+        </div>
+      ))}
     </div>}
     <div className="card reference">
       {memberData?.references && memberData.references.length > 0 && (

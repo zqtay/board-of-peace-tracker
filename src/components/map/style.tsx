@@ -1,40 +1,23 @@
-import type { MemberState } from "../../services/data/types";
+import type { MemberState, StatusConfig } from "../../services/data/types";
+
+const DEFAULT_COLOR = "#6c757d";
 
 export const defaultStateStyle = {
-  fillColor: "#6c757d", // Default gray
+  fillColor: DEFAULT_COLOR,
   fillOpacity: 0.7,
   color: "black",
   weight: 1,
   className: "transition",
 };
 
-export const getMemberStateStyle = (member: MemberState) => {
-  let fillColor = "#6c757d";
-  switch (member?.status) {
-    case "member":
-      fillColor = "#dc3545";
-      break;
-    case "accepted":
-      fillColor = "#fd7e14";
-      break;
-    case "observer":
-      fillColor = "#2baea1";
-      break;
-    case "declined":
-      fillColor = "#007bff";
-      break;
-    case "invited":
-      fillColor = "#ffc107";
-      break;
-    case "withdrawn":
-      fillColor = "#6f42c1";
-      break;
-  }
+export const getMemberStateStyle = (member: MemberState, statusConfig: StatusConfig[]) => {
+  const config = statusConfig.find(c => c.status === member?.status);
+  const fillColor = config?.color ?? DEFAULT_COLOR;
   return {
     fillColor,
-    fillOpacity: 0.7, // Keep this low so you can see the map behind
-    color: "black",   // Border color
-    weight: 1,        // Border thickness
+    fillOpacity: 0.7,
+    color: "black",
+    weight: 1,
     className: "transition",
   };
 };

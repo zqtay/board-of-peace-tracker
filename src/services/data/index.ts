@@ -1,6 +1,7 @@
-import type { MemberListData } from "./types";
+import type { MemberListData, StatusConfig } from "./types";
 import memberListJson from "./data.json?url";
 import stateGeoJson from "./state.geojson?url";
+import statusConfigJson from "./config.json?url";
 
 const getMemberList = async (): Promise<MemberListData> => {
   const response = await fetch(memberListJson);
@@ -14,7 +15,14 @@ const getStateGeoJson = async (): Promise<any> => {
   return data;
 };
 
+const getStatusConfig = async (): Promise<StatusConfig[]> =>   {
+  const response = await fetch(statusConfigJson);
+  const data = await response.json();
+  return data;
+};
+
 export const DataService = {
   getMemberList,
   getStateGeoJson,
+  getStatusConfig,
 };

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { DataService } from "../../services/data";
-import { type StateGeoJson, type MemberListData } from "../../services/data/types";
+import { type StateGeoJson, type MemberListData, type StatusConfig } from "../../services/data/types";
 import { SmallStateMarkers } from "./marker";
 import { type PopupState } from "./popup";
 import { StatePolygons } from "./state";
@@ -16,6 +16,7 @@ const outerBounds: [number, number][] = [
 const Map = () => {
   const [geoJsonData, setGeoJsonData] = useState<StateGeoJson>();
   const [memberData, setMemberData] = useState<MemberListData>();
+  const [statusConfig, setStatusConfig] = useState<StatusConfig[]>([]);
   const [popup, setPopup] = useState<PopupState>({
     visible: false,
     content: null,
@@ -31,6 +32,10 @@ const Map = () => {
     DataService.getMemberList()
       .then((data) => {
         setMemberData(data);
+      });
+    DataService.getStatusConfig()
+      .then((data) => {
+        setStatusConfig(data);
       });
   }, []);
 
@@ -53,6 +58,7 @@ const Map = () => {
           <StatePolygons
             geoJson={geoJsonData}
             memberData={memberData}
+            statusConfig={statusConfig}
             popup={popup}
             setPopup={setPopup}
           />
@@ -61,12 +67,13 @@ const Map = () => {
           <SmallStateMarkers
             geoJson={geoJsonData}
             memberData={memberData}
+            statusConfig={statusConfig}
             popup={popup}
             setPopup={setPopup}
           />
         }
       </MapContainer>
-      <Legend memberData={memberData} />
+      <Legend memberData={memberData} statusConfig={statusConfig} />
       {popup?.visible &&
         <div className="card popup">
           {popup.content}

@@ -2,6 +2,8 @@
 import fetchHtml from "./fetch";
 import process from "./process";
 import exportJson from "./export-json";
+import { CONFIG_FILE_PATH, DATA_FILE_PATH } from "./constant";
+import { statusConfig } from "./config";
 
 const main = async () => {
   console.log("Starting data update process...");
@@ -9,7 +11,8 @@ const main = async () => {
   console.log("HTML fetched successfully.");
   const data: Object = await process(html);
   console.log("Data processing complete.");
-  exportJson(data);
+  exportJson(data, DATA_FILE_PATH);
+  exportJson(statusConfig, CONFIG_FILE_PATH);
   console.log("Data export complete.");
 };
 
