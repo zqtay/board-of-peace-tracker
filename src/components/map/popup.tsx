@@ -18,11 +18,11 @@ export const getMemberStatePopup = (
   const a2code = feature.properties?.iso_a2_eh?.toLowerCase();
   let status = "Not invited";
   switch (member?.status) {
+    case "member":
+      status = "Member";
+      break;
     case "accepted":
       status = "Accepted";
-      break;
-    case "intendToAccept":
-      status = "Intend to accept";
       break;
     case "observer":
       status = "Observer";

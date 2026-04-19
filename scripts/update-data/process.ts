@@ -27,8 +27,8 @@ const main = async (html: string) => {
 
   const title = $('title').text().trim();
 
-  const accpetedList = findElementAfter($, 'h3:contains("accept")', 'ul');
-  const intendToAcceptList = findElementAfter($, 'h3:contains("accept")', 'ul', 1);
+  const memberList = findElementAfter($, 'h3:contains("member")', 'ul');
+  const acceptedList = findElementAfter($, 'h3:contains("accept")', 'ul');
   const observerList = findElementAfter($, 'h3:contains("Observers")', 'ul');
   const invitedList = findElementAfter($, 'h3:contains("invitees")', 'ul');
   const withdrawnList = findElementAfter($, 'h3:contains("invitees")', 'ul', 1);
@@ -61,8 +61,8 @@ const main = async (html: string) => {
   };
 
   const members = [
-    ...accpetedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "accepted" })).get(),
-    ...intendToAcceptList.children('li').map((_, el) => ({ ...parseCountry(el), status: "intendToAccept" })).get(),
+    ...memberList.children('li').map((_, el) => ({ ...parseCountry(el), status: "member" })).get(),
+    ...acceptedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "accepted" })).get(),
     ...observerList.children('li').map((_, el) => ({ ...parseCountry(el), status: "observer" })).get(),
     ...invitedList.children('li').map((_, el) => ({ ...parseCountry(el), status: "invited" })).get(),
     ...withdrawnList.children('li').map((_, el) => ({ ...parseCountry(el), status: "withdrawn" })).get(),

@@ -9,18 +9,12 @@ export const defaultStateStyle = {
 };
 
 export const getMemberStateStyle = (member: MemberState) => {
-  // Red for confirmed
-  // Orange for intend to accept
-  // Blue for declined
-  // Yellow for invited
-  // Gray for not involved
-  // Purple for withdrawn
   let fillColor = "#6c757d";
   switch (member?.status) {
-    case "accepted":
+    case "member":
       fillColor = "#dc3545";
       break;
-    case "intendToAccept":
+    case "accepted":
       fillColor = "#fd7e14";
       break;
     case "observer":

@@ -12,7 +12,7 @@ export type MemberState = {
   name: string;
   alpha2: string | null;
   alpha3: string | null;
-  status: 'accepted' | 'intendToAccept' | 'observer' | 'invited' | 'declined' | 'withdrawn';
+  status: 'member' | 'accepted' | 'observer' | 'invited' | 'declined' | 'withdrawn';
   references: Reference[];
 };
 
