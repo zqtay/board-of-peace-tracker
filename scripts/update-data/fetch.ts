@@ -1,4 +1,4 @@
-import { DATA_SOURCE_URL } from './constant';
+import { DATA_SOURCE_URL } from './config';
 
 const headers = {
   // Standard User-Agent for a modern Chrome browser on Windows
